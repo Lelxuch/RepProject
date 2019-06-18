@@ -1,3 +1,7 @@
-#MainId{
+#MainHead{
 	color: green
+}
+
+body {
+	background-color: yellow
 }
