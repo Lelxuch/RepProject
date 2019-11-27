@@ -43,7 +43,8 @@ h1, h2, h3, h4, h5, h6{
 
 	justify-content: center;
 
-	background: #154360;
+	background: url("../images/filler/lightdark_blue_filler.png") no-repeat center;
+	background-size: cover;
 
 	width: 100%;
 	height: 45px;
@@ -128,7 +129,7 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 80px;
 
 	font-size: 95px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 
 	text-transform: uppercase;
 	color: #fff;
@@ -169,15 +170,6 @@ h1, h2, h3, h4, h5, h6{
 	color: #17a6ac;
 }
 
-/*Main infa*/
-/*.background{
-	width: 100%;
-	height: 100%;
-
-	background: url("../images/about/about_background7.jpg") no-repeat center;
-	background-size: cover;
-}*/
-
 /*About*/
 .all_about{
 	display: flex;
@@ -187,6 +179,8 @@ h1, h2, h3, h4, h5, h6{
 
 .about{
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
 	width: 100%;
 	height: 100vh;
@@ -197,11 +191,26 @@ h1, h2, h3, h4, h5, h6{
 	background-size: cover;
 }
 
+/*About -> header*/
+.about_all_header{
+	background: url("../images/filler/lightdark_blue_filler.png") no-repeat center;
+	background-size: cover;
+
+	padding: 15px 0px;
+}
+
 .about_header{
 	display: flex;
 	justify-content: center;
+	align-items: center;
+}
 
-	margin-top: 80px;
+.about_head_arrow{
+	background: url("../images/arrow/arrow_white.png") no-repeat center;
+	background-size: cover;
+
+	height: 30px;
+	width: 40px;
 }
 
 .about_head_title{
@@ -225,14 +234,8 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 10px;
 }
 
-.about_head_arrow{
-	background: url("../images/arrow/arrow_white.png") no-repeat center;
-	background-size: cover;
 
-	height: 30px;
-	width: 40px;
-}
-
+/*About -> content*/
 .about_content{
 	display: flex;
 	justify-content: center;
@@ -252,16 +255,22 @@ h1, h2, h3, h4, h5, h6{
 	width: 600px;
 	height: 400px;
 
-	background: url("../images/about/lyceum2.jpg") no-repeat center;
+	background: url("../images/about/lyceum2.png") no-repeat center;
 	background-size: cover;
 }
 
 .about_inner{
-	padding: 15px 20px;
+	height: 360px;
+
+	padding: 20px 20px;
+	margin-left: 20px;
+
+	background: url("../images/filler/blue_filler.png") no-repeat center;
+	background-size: cover;
 }
 
 .about_title{
-	margin-bottom: 15px;
+	padding: 15px 15px;
 
 	font-size: 25px;
 	font-family: 'Montserrat', sans-serif;
@@ -270,7 +279,9 @@ h1, h2, h3, h4, h5, h6{
 
 .about_text{
 	font-size: 20px;
-	padding-left: 20px;
+	padding: 0px 25px;
+
+	height: 80%;
 }
 
 .about_text_p{
@@ -280,6 +291,8 @@ h1, h2, h3, h4, h5, h6{
 /*Advantage*/
 .advantage{
 	display: flex;
+	flex-direction: column;
+	justify-content: content;
 
 	width: 100%;
 	height: 100vh;
@@ -288,12 +301,31 @@ h1, h2, h3, h4, h5, h6{
 	background-size: cover;
 }
 
+/*Advantage -> header*/
+.advantage_all_header{
+	background: url("../images/filler/lightdark_blue_filler.png") no-repeat center;
+	background-size: cover;
+
+	padding: 15px;
+
+	margin-top: 50px;
+}
+
 .advantage_header{
-	display: block;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
 
+.advantage_head_item{
+	display: flex;
+	justify-content: flex-start;
+
+	width: 42%;
+}
+
+.advantage_head_inner{
 	text-align: center;
-
-	margin: 0 auto;
 }
 
 .advantage_head_title{
@@ -302,7 +334,6 @@ h1, h2, h3, h4, h5, h6{
 
 	color: #fff;
 
-	margin: 0 auto;
 }
 
 .advantage_head_title:after{
@@ -322,7 +353,6 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 16px;
 	font-family: 'Kaushan Script', cursive;
 
-	margin: 0 auto;
 }
 
 .advantage_head_arrow{
@@ -336,6 +366,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 40px;
 }
 
+/*Advantage -> content*/
 .advantage_content{
 	display: flex;
 	justify-content: center;
@@ -350,15 +381,15 @@ h1, h2, h3, h4, h5, h6{
 
 .advantage_block{
 	display:flex;
-	flex-direction;
 	justify-content: space-between;
+	align-items: center;
 
 	margin: 70px 20px;
 }
 
 .advantage_inner{
 	display:flex;
-	justify-content: center;
+	align-items: center;
 
 	width: 100%;
 }
@@ -366,18 +397,29 @@ h1, h2, h3, h4, h5, h6{
 .advantage_post_icon{
 	width: 90px;
 	height: 90px;
+
+	margin-right: 10px;
+}
+
+.advantage_all_post{
+	background: url("../images/filler/blue_filler.png") no-repeat center;
+	background-size: cover;
+
+	padding: 10px 10px;
+	padding-left: 0px;
 }
 
 .advantage_post_title{
 	font-size: 16px;
 	font-weight: 700;
 
-	padding: 0px 20px 10px;
+	padding: 10px 20px;
 }
 
 .advantage_post_text{
 	width: 100%;
 	height: 100%;
+
 
 	padding: 0px 20px;
 
@@ -390,7 +432,7 @@ h1, h2, h3, h4, h5, h6{
 
 	background: #fff;
 
-	width: 100%;
+	width: 95%;
 	height: 3px;
 
 	margin-bottom: 15px;
@@ -399,6 +441,8 @@ h1, h2, h3, h4, h5, h6{
 /*Admission*/
 .admission{
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
 	background: url("../images/admission/admission_background_reverse.jpg") no-repeat center;
 	background-size: cover;
@@ -407,13 +451,23 @@ h1, h2, h3, h4, h5, h6{
 	height: 100vh;
 }
 
+/*Admission -> Header*/
+.admission_all_header{
+	background: url("../images/filler/lightdark_blue_filler.png") no-repeat center;
+	background-size: cover;
+
+	padding: 20px 0px;
+
+}
+
 .admission_header{
-	display: block;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
 
-	text-align: center;
-
-	margin: 0 auto;
-	margin-top: 60px;
+.admission_head_item{
+	width: 33.5%;
 }
 
 .admission_head_arrow{
@@ -425,6 +479,10 @@ h1, h2, h3, h4, h5, h6{
 
 	height: 30px;
 	width: 40px;
+}
+
+.admission_head_inner{
+	text-align: center;
 }
 
 .admission_head_title{
@@ -463,7 +521,7 @@ h1, h2, h3, h4, h5, h6{
 	justify-content: space-between;
 	align-items: center;
 
-	margin-top: 8%;
+	margin-top: 10%;
 }
 
 .admission_item{
@@ -500,27 +558,44 @@ h1, h2, h3, h4, h5, h6{
 /* Documents */
 .documents{
 	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 
-	background: url("../images/admission/admission_background2.jpg") no-repeat center;
+	background: url("../images/documents/documents_background.jpg") no-repeat center;
 	background-size: cover;
 
 	width: 100%;
+	height: 100vh;
+}
+ /*Documents -> Header*/
+.documents_all_header{
+	background: url("../images/filler/lightdark_blue_filler.png");
+	background-size: cover;
+
+	padding: 15px 0px;
+
+	margin-top: 60px;
 }
 
 .documents_header{
-	display: block;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 
 	text-align: center;
 
 	margin: 0 auto;
-	margin-top: 60px;
+}
+
+.documents_head_item{
+	width: 33.5%;
 }
 
 .documents_head_arrow{
 	display: flex;
 	width: 100%;
 
-	background: url("../images/arrow/arrow_black.png") no-repeat center;
+	background: url("../images/arrow/arrow_white.png") no-repeat center;
 	background-size: cover;
 
 	height: 30px;
@@ -531,18 +606,133 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 30px;
 	font-weight: 700;
 
-	color: #333;
-
 	margin: 0 auto;
 }
 
+.documents_head_title::after{
+	display: block;
+	content: "";
+
+	background: #fff;
+
+	width: 150px;
+	height: 3px;
+
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+/*Documents -> Content*/
 .documents_content{
 	display: flex;
 	justify-content: space-between;
-	margin-top: 5%;
+	margin-top: 10%;
 }
 
 .documents_item{
+	width: 49%;
+}
+
+.documents_item_title{
+	font-size: 25px;
+	text-align: center;
+
+	margin-top: 3%;
+}
+
+.documents_item_inner{
+	display:flex;
+	justify-content: center;
+
+	font-size: 21px;
+
+	margin-top: 2%;
+}
+
+/*Competition*/
+.competition{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	background: url("../images/about/about_background_reverse.jpg") no-repeat center;
+	background-size: cover;
+
+	width: 100%;
+	height: 100vh;
+}
+
+.competition_all_header{
+	background: url("../images/filler/lightdark_blue_filler.png") no-repeat center;
+	background-size: cover;
+
+	padding: 15px 0px;
+	margin-top: 60px;
+}
+
+.competition_header{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.competition_head_item{
+	width: 44%;
+}
+
+.competition_head_arrow{
+	display: flex;
+	width: 100%;
+
+	background: url("../images/arrow/arrow_white.png") no-repeat center;
+	background-size: cover;
+
+	height: 30px;
+	width: 40px;
+}
+
+.competition_head_title{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.competition_head_title::after{
+	display: block;
+	content: "";
+
+	background: #fff;
+
+	width: 150px;
+	height: 3px;
+
+	margin-top: 10px;
+}
+
+.competition_content{
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 10%;
+}
+
+.competition_item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	width: 50%;
-	color: #333;
+}
+
+.competition_item_title{
+	font-size: 25px;
+}
+
+.competition_item_inner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	font-size: 21px;
+
+	margin-top: 7%;
 }
