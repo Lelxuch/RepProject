@@ -667,17 +667,21 @@ h1, h2, h3, h4, h5, h6{
 	background-size: cover;
 
 	padding: 15px 0px;
-	margin-top: 60px;
+	margin-top: 0px;
 }
 
 .competition_header{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+
+	text-align: center;
+
+	margin: 0 auto;
 }
 
 .competition_head_item{
-	width: 44%;
+	width: 34%;
 }
 
 .competition_head_arrow{
@@ -694,6 +698,7 @@ h1, h2, h3, h4, h5, h6{
 .competition_head_title{
 	font-size: 30px;
 	font-weight: 700;
+	margin: 0 auto;
 }
 
 .competition_head_title::after{
@@ -705,6 +710,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 150px;
 	height: 3px;
 
+	margin: 0 auto;
 	margin-top: 10px;
 }
 
@@ -735,4 +741,372 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 21px;
 
 	margin-top: 7%;
+}
+/*Map*/
+.map{
+	background: url("../images/map/map_background.jpg") no-repeat center;
+	background: cover;
+	height: 250px;
+	width: 100%;
+
+	margin-top: -120px;
+}
+.map_content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+
+	margin: 0 auto;
+}
+
+.map_item{
+	margin-top: 100px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.map_flag{
+	width: 30px;
+	height: 30px;
+}
+
+.map_title{
+	text-decoration: none;
+	text-transform: uppercase;
+
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.map_link{
+	text-decoration: none;
+	color: #ea4349;
+}
+
+.map_link:hover{
+	text-decoration: underline;
+}
+
+/*The best*/
+.rating{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	background: url("../images/rating/rating_background.jpg") no-repeat center;
+	background-size: cover;
+
+	width: 100%;
+	height: 100vh;
+}
+
+/*Admission -> Header*/
+.rating_all_header{
+	background: url("../images/filler/lightdark_blue_filler.png") no-repeat center;
+	background-size: cover;
+
+	padding: 20px 0px;
+	margin-top: 100px;
+}
+
+.rating_header{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.rating_head_item{
+	width: 33.5%;
+}
+
+.rating_head_arrow{
+	display: flex;
+	width: 100%;
+
+	background: url("../images/arrow/arrow_white.png") no-repeat center;
+	background-size: cover;
+
+	height: 30px;
+	width: 40px;
+}
+
+.rating_head_inner{
+	text-align: center;
+}
+
+.rating_head_title{
+	font-size: 30px;
+	font-weight: 700;
+
+	color: #fff;
+
+	margin: 0 auto;
+}
+
+.rating_head_title:after{
+	display: block;
+	content: "";
+
+	background: #fff;
+
+	width: 150px;
+	height: 3px;
+
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.rating_head_subtitle{
+	font-size: 16px;
+	font-family: 'Kaushan Script', cursive;
+
+	color: #fff;
+
+	margin: 0 auto;
+}
+/*Event*/
+.event{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	background: url("../images/event/event_background_reverse.jpg") no-repeat center;
+	background-size: cover;
+
+	width: 100%;
+	height: 100vh;
+}
+
+/*Admission -> Header*/
+.event_all_header{
+	background: url("../images/filler/lightdark_blue_filler.png") no-repeat center;
+	background-size: cover;
+
+	padding: 20px 0px;
+	margin-top: 50px;
+}
+
+.event_header{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.event_head_item{
+	width: 33.5%;
+}
+
+.event_head_arrow{
+	display: flex;
+	width: 100%;
+
+	background: url("../images/arrow/arrow_white.png") no-repeat center;
+	background-size: cover;
+
+	height: 30px;
+	width: 40px;
+}
+
+.event_head_inner{
+	text-align: center;
+}
+
+.event_head_title{
+	font-size: 30px;
+	font-weight: 700;
+
+	color: #fff;
+
+	margin: 0 auto;
+}
+
+.event_head_title:after{
+	display: block;
+	content: "";
+
+	background: #fff;
+
+	width: 150px;
+	height: 3px;
+
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.event_head_subtitle{
+	font-size: 16px;
+	font-family: 'Kaushan Script', cursive;
+
+	color: #fff;
+
+	margin: 0 auto;
+}
+
+/*Blog*/
+.blog{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	background: url("../images/blog/blog_background.jpg") no-repeat center;
+	background-size: cover;
+
+	width: 100%;
+	height: 100vh;
+}
+
+/*Admission -> Header*/
+.blog_all_header{
+	background: url("../images/filler/lightdark_blue_filler.png") no-repeat center;
+	background-size: cover;
+
+	padding: 20px 0px;
+	margin-top: 50px;
+}
+
+.blog_header{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.blog_head_item{
+	width: 33.5%;
+}
+
+.blog_head_arrow{
+	display: flex;
+	width: 100%;
+
+	background: url("../images/arrow/arrow_white.png") no-repeat center;
+	background-size: cover;
+
+	height: 30px;
+	width: 40px;
+}
+
+.blog_head_inner{
+	text-align: center;
+}
+
+.blog_head_title{
+	font-size: 30px;
+	font-weight: 700;
+
+	color: #fff;
+
+	margin: 0 auto;
+}
+
+.blog_head_title:after{
+	display: block;
+	content: "";
+
+	background: #fff;
+
+	width: 150px;
+	height: 3px;
+
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.blog_head_subtitle{
+	font-size: 16px;
+	font-family: 'Kaushan Script', cursive;
+
+	color: #fff;
+
+	margin: 0 auto;
+}
+
+/*Blog -> Post*/
+.blog_posts{
+	display: flex;
+	justify-content: center;
+	margin-top: 120px;
+}
+
+.blog_item{
+	width: 30%;
+	margin: 0px 30px;
+}
+
+.blog_item_header{
+	position: relative;
+}
+
+.blog_photo{
+	width: 100%;
+	height: auto;
+}
+
+.blog_date{
+	position: absolute;
+
+	padding: 5px 10px;
+
+	left: -13px;
+	bottom: 15px;
+	z-index: 1;
+
+	font-style: italic;
+	font-weight: 300;
+	text-align: center;
+
+	background: url("../images/filler/lightdark_blue_filler.png");
+}
+
+.blog_date_day{
+	font-size: 30px;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.blog_title{
+	font-size: 14px;
+	color: #fff;
+
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.blog_title:hover{
+	text-decoration: underline;
+}
+
+.blog_text{
+	margin-top: 3px;
+	margin-bottom: 15px;
+
+	font-size: 15px;
+	color: #f6eef4;
+
+	height: 40px;
+
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+.blog_footer{
+	padding-top: 7px;
+
+	border-top: 1px solid #f6eef4;
+	color: #f6eef4;
+
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.blog_stat_item{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.blog_stat_photo{
+	width: 15px;
+	height: 15px;
 }
