@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 80px;
 
 	font-size: 95px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Jomolhari', serif;
 
 	text-transform: uppercase;
 	color: #fff;
@@ -352,7 +352,6 @@ h1, h2, h3, h4, h5, h6{
 .advantage_head_subtitle{
 	font-size: 16px;
 	font-family: 'Kaushan Script', cursive;
-
 }
 
 .advantage_head_arrow{
@@ -746,6 +745,7 @@ h1, h2, h3, h4, h5, h6{
 .map{
 	background: url("../images/map/map_background.jpg") no-repeat center;
 	background: cover;
+
 	height: 250px;
 	width: 100%;
 
@@ -1263,4 +1263,153 @@ h1, h2, h3, h4, h5, h6{
 .blog_stat_photo{
 	width: 15px;
 	height: 15px;
+}
+
+/*Footer*/
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	background: #403a3b;
+
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+/*Footer -> content*/
+.footer_content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/*Footer -> content -> header*/
+.footer_header{
+	width: 30%;
+}
+
+.footer_logo_component{
+	display: flex;
+	align-items: center;
+
+	padding: 0 70px;
+}
+
+.footer_logo{
+	width: 90px;
+	height: 90px;
+}
+
+.footer_logo_name{
+	font-size: 70px;
+
+	margin-left: 20px;
+}
+
+/*Footer -> item*/
+.footer_item{
+	width: 20%;
+	height: 230px;
+
+	margin-top: 15px;
+
+	border-left: 1px solid #938989;
+}
+
+.footer_item_header{
+	font-size: 25px;
+	font-weight: 700;
+
+	text-transform: uppercase;
+	text-align: center;
+
+	padding-top: 15px;
+}
+
+/*Footer -> contact*/
+.footer_contact{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	margin-top: 30px;
+}
+
+.footer_contact_item{
+	display: flex;
+	align-items: center;
+
+	margin-bottom: 12px;
+}
+
+.footer_phone_img{
+	width: 30px;
+	height: 30px;
+
+	margin-right: 15px;
+	margin-left: 40px;
+}
+
+.footer_mail_img{
+	width: 30px;
+	height: 30px;
+
+	margin-right: 15px;
+	margin-left: 40px;
+}
+
+/*Footer -> map*/
+.footer_map_header{
+	display: flex;
+	justify-content: center;
+}
+
+.footer_map_img{
+	width: 90px;
+	height: 90px;
+}
+
+.footer_map_content{
+	font-size: 16px;
+
+	text-align: center;
+
+	margin-top: 12px;
+}
+
+/*Telegram -> https://t.me/karbil1*/
+/*Footer -> social network*/
+.footer_soc{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	margin-top: 10px;
+}
+
+.foter_soc{
+	display:flex;
+	justify-content: flex-start
+}
+
+.footer_soc_img{
+	width: 50px;
+	height: 50px;
+
+	margin: 10px;
+}
+
+/*Footer -> footer*/
+.footer_footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: #333;
+
+	font-size: 16px;
+
+	height: 40px;
 }
