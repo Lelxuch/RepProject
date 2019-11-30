@@ -234,7 +234,6 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 10px;
 }
 
-
 /*About -> content*/
 .about_content{
 	display: flex;
@@ -1212,8 +1211,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .blog_photo{
-	width: 100%;
-	height: auto;
+	width: 400px;
+	height: 220px;
 }
 
 .blog_title{
