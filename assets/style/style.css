@@ -1333,7 +1333,7 @@ h1, h2, h3, h4, h5, h6{
 	flex-direction: column;
 	justify-content: flex-start;
 
-	margin-top: 30px;
+	margin-top: 35px;
 }
 
 .footer_contact_item{
@@ -1348,7 +1348,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 30px;
 
 	margin-right: 15px;
-	margin-left: 40px;
+	margin-left: 70px;
 }
 
 .footer_mail_img{
@@ -1356,7 +1356,7 @@ h1, h2, h3, h4, h5, h6{
 	height: 30px;
 
 	margin-right: 15px;
-	margin-left: 40px;
+	margin-left: 70px;
 }
 
 /*Footer -> map*/
@@ -1378,7 +1378,6 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 12px;
 }
 
-/*Telegram -> https://t.me/karbil1*/
 /*Footer -> social network*/
 .footer_soc{
 	display: flex;
