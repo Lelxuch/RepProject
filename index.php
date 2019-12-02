@@ -358,15 +358,18 @@
 							#1
 						</div>
 						<div>
-							<img class="rating_face" src="assets/images/filler/white_filler.png">
+							<img class="rating_face" src="assets/images/rating/rank1.jpg">
 						</div>
 					</div>
 					<div class="rating_item2">
 						<div class="rating_name">
-							Sanzhar Nakyp
+							Нурпеисов Олжас
 						</div>
 						<div class="rating_awards">
-							IOI 2020, IOI 2019, IOI 2018, IOI 2017
+							ICHO(2018, 2019) - бронза; Республиканская(2017, 2018, 2019) - золото;
+							Областная(2016, 2017, 2018, 2019) - золото; Бектуров(2017, 2018, 2019) -
+							бронза, золото, золото; Менделеевская(2018, 2019) - бронза; Туймада(2017)-
+							серебро.
 						</div>
 					</div>
 				</div>
@@ -376,15 +379,16 @@
 							#2
 						</div>
 						<div>
-							<img class="rating_face" src="assets/images/filler/white_filler.png">
+							<img class="rating_face" src="assets/images/rating/rank2.jpg">
 						</div>
 					</div>
 					<div class="rating_item2">
 						<div class="rating_name">
-							Sanzhar Nakyp
+							Темирлан Амангельдинов
 						</div>
 						<div class="rating_awards">
-							IOI 2020, IOI 2019, IOI 2018, IOI 2017
+							IPHO(2017) - серебро; Республиканская(2015, 2016, 2017) - золото;
+							Областная (2015, 2016, 2017) - золото; Жаутыковская (2017) - серебро;
 						</div>
 					</div>
 				</div>
@@ -394,15 +398,16 @@
 							#3
 						</div>
 						<div>
-							<img class="rating_face" src="assets/images/filler/white_filler.png">
+							<img class="rating_face" src="assets/images/rating/rank3.jpg">
 						</div>
 					</div>
 					<div class="rating_item2">
 						<div class="rating_name">
-							Sanzhar Nakyp
+							Саматов Абылай
 						</div>
 						<div class="rating_awards">
-							IOI 2020, IOI 2019, IOI 2018, IOI 2017
+							ICHO(2005) - бронза; Республиканская(2005) - золото; Областная
+							(2005, 2004) - золото; Туймада(2004) - Золото.
 						</div>
 					</div>
 				</div>
