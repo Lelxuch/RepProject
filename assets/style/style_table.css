@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+
+	font-family: 'Roboto', sans-serif; /* ??????????????????? */
+	font-size: 15px;
+
+	line-height: 1.5;
+
+	color: #333;
+}
+
+*,
+*after,
+before{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+
+	margin: 0 auto;
+}
+
+/*Header*/
+.table_all_header{
+	padding: 30px 0px 60px;
+}
+
+.table_header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.table_head_arrow{
+	background: url("../images/arrow/arrow_black.png") no-repeat center;
+	background-size: cover;
+
+	height: 30px;
+	width: 40px;
+}
+
+.table_head_title{
+	font-size: 30px;
+	font-weight: 700;
+
+	color: #333;
+
+	margin: 0 auto;
+}
+
+/*Content*/
+.content{
+    display: flex;
+}
+
+.all_table{
+    text-align: center;
+}
+
+.th_olympiad{
+    padding: 5px 70px;
+}
+
+.th_year{
+    padding: 5px 25px;
+}
+
+.th_scope{
+    padding: 5px 25px;
+}
+
+.th_name{
+    padding: 5px 80px;
+}
+
+.th_medal{
+    padding: 5px 45px;
+}
+
+.th_subject{
+    padding: 5px 45px;
+}
+
+.th_class{
+    padding: 5px 15px;
+}
+
+.th_location{
+    padding: 5px 15px;
+}

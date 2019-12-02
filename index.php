@@ -121,7 +121,7 @@
 								Воспитание
 							</div>
 							<div class="advantage_post_text">
-								Обучение и  воспитание стоят на одном уровне.В этом заслуга наших учителей и воспитателей. 
+								Обучение и  воспитание стоят на одном уровне.В этом заслуга наших учителей и воспитателей.
 							</div>
 						</div>
 					</div>
@@ -344,6 +344,9 @@
 						   </div>
 					   </div>
 				   </div>
+				   <div class="rating_header_item">
+				   		<a class="rating_header_archive_btn" target="_blank" href="table.php">Архив достижении</a>
+				   </div>
 			   </div>
 		   </div>
 	   </div>
@@ -432,7 +435,7 @@
 			   <div class="event_item">
 				   <div class="event_item_header">
 					   <div class="event_title">Соревнования по баскетболу</div>
-					   <a href="#">
+					   <a href="event.html">
 						   <img class="event_photo" src="assets/images/event/basketball.jpg">
 					   </a>
 					   <div class="event_date">
@@ -521,7 +524,7 @@
 			<div class="blog_posts">
 				<div class="blog_item">
 					<div class="blog_item_header">
-						<a href="#">
+						<a href="blog.php">
 							<img class="blog_photo" src="assets/images/blog/post1.jpg">
 						</a>
 					</div>
