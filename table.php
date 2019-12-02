@@ -34,16 +34,12 @@
                     <th class="th_class">Класс</th>
                     <th class="th_location">Место проведения</th>
                 </tr>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>7</td>
-                    <td>8</td>
-                </tr>
+                <?php
+                  $result = mysqli_query($connection, 'SELECT * FROM achievement ORDER BY title');
+                  while ( ($record = mysqli_fetch_assoc($result)) ){
+                      echo '<tr><td>'.$record['title'].'</td>'.'<td>'.$record['year'].'</td>'.'<td>'.$record['scope'].'</td>'.'<td>'.$record['name'].'</td>'.'<td>'.$record['medal'].'</td>'.'<td>'.$record['subject'].'</td>'.'<td>'.$record['grade'].'</td>'.'<td>'.$record['location'].'</td></tr>';
+                  }
+                ?>
             </table>
         </div>
     </div>

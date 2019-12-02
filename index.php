@@ -345,7 +345,7 @@
 					   </div>
 				   </div>
 				   <div class="rating_header_item">
-				   		<a class="rating_header_archive_btn" target="_blank" href="table.php">Архив достижении</a>
+				   		<a class="rating_header_archive_btn" target="_blank" href="table.php">Архив достижений</a>
 				   </div>
 			   </div>
 		   </div>
@@ -500,7 +500,7 @@
 	</div>
 
 	<?php require "includes/article.php"; ?>
-	<div class="blog" id="blog_links">
+	<div class="blog" id="blog_link">
 		<div class="blog_all_header">
 		   <div class="container">
 			   <div class="blog_header">
