@@ -1,3 +1,4 @@
+<?php require "includes/config.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -464,7 +465,7 @@
 				   </div>
 				   <div class="event_item_content">
 					   <div class="event_text">
-					   		Седьмого декабря пройдут соревнования по шахматам внутри нашей школы. Могут участвовать все пожелавшие.
+					   		Седьмого декабря пройдут соревнования по шахматам внутри нашей школы. Могут участвовать все желающие.
 					   </div>
 				   </div>
 				   <div class="event_footer">
@@ -498,7 +499,8 @@
 	   </div>
 	</div>
 
-	<div class="blog" id="blog_link">
+	<?php require "includes/article.php"; ?>
+	<div class="blog" id="blog_links">
 		<div class="blog_all_header">
 		   <div class="container">
 			   <div class="blog_header">
@@ -527,25 +529,24 @@
 						</a>
 					</div>
 					<div class="blog_item_content">
-						<a href="blog.html" class="blog_title"><div>Книги</div></a>
+						<a href="blog.php" class="blog_title"><div><?php echo $article_title; ?></div></a>
 						<div class="blog_text">
-							Ныне мало людей уделают время чтению. Хотя это хранилище самых
-							разнообразных знании человечества.
+							<?php echo $article_description; ?>
 						</div>
 					</div>
 					<div class="blog_footer">
 						<div class="blog_stat">
 							<div class="blog_stat_item">
 								<img src="assets/images/blog/view.png" class="blog_stat_photo">
-								109
+								<?php echo $article_views; ?>
 							</div>
 							<div class="blog_stat_item">
 								<img src="assets/images/blog/like.png" class="blog_stat_photo">
-								39
+								<?php echo $article_likes; ?>
 							</div>
 						</div>
 						<div class="blog_date">
-							Ноябрь 29
+							<?php echo $article_pubdate; ?>
 						</div>
 					</div>
 				</div>
@@ -558,9 +559,9 @@
 					<div class="blog_item_content">
 						<a href="#" class="blog_title"><div>Саматов Абылай учитель по химии</div></a>
 						<div class="blog_text">
-							Учитель по химии, Самтов Абылай, получил специальную награду "EL MAQTANYSHY"
+							Учитель по химии, Саматов Абылай, получил специальную награду "EL MAQTANYSHY"
 							за то, что подготовил учеников, которые добились больших успехов
-							на олимпиаде
+							на международной олимпиаде по химии ICho-2019.
 						</div>
 					</div>
 					<div class="blog_footer">
