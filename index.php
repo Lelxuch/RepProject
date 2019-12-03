@@ -504,7 +504,6 @@
 	   </div>
 	</div>
 
-	<?php require "includes/article.php"; ?>
 	<div class="blog" id="blog_link">
 		<div class="blog_all_header">
 		   <div class="container">
@@ -528,6 +527,11 @@
 	   	<div class="container">
 			<div class="blog_posts">
 				<div class="blog_item">
+					<?php
+					require "includes/config.php";
+					$article_id = 1;
+					$article = mysqli_query($connection, 'SELECT * FROM blog_article WHERE id = ' . $article_id);
+					while( $article_data = mysqli_fetch_assoc($article) ){?>
 					<div class="blog_item_header">
 						<a href="blog.php">
 							<img class="blog_photo" src="assets/images/blog/post1.jpg">
@@ -551,11 +555,10 @@
 							</div>
 						</div>
 						<div class="blog_date">
-							<?php echo $article_data['pubdate']; ?>
+							<?php echo $article_data['pubdate']; }?>
 						</div>
 					</div>
 				</div>
-			<?php } ?>
 				<div class="blog_item">
 					<div class="blog_item_header">
 						<a href="#">
@@ -618,7 +621,6 @@
 		   	</div>
 	   	</div>
 	</div>
-
 	<div class="footer">
 		<div class="footer_content">
 			<div class="footer_header">
