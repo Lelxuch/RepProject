@@ -1,6 +1,6 @@
 <?php require "includes/config.php"; ?>
 <!DOCTYPE html>
-<html>]
+<html>
 <head>
     <link rel="stylesheet" type="text/css" href="assets/style/style_blog.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Jomolhari|Roboto|Kaushan+Script|Montserrat|Open+Sans&display=swap" rel="stylesheet">
