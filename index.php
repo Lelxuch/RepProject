@@ -534,27 +534,28 @@
 						</a>
 					</div>
 					<div class="blog_item_content">
-						<a href="blog.php" class="blog_title"><div><?php echo $article_title; ?></div></a>
+						<a href="blog.php" class="blog_title"><div><?php echo $article_data['title']; ?></div></a>
 						<div class="blog_text">
-							<?php echo $article_description; ?>
+							<?php echo $article_data['description']; ?>
 						</div>
 					</div>
 					<div class="blog_footer">
 						<div class="blog_stat">
 							<div class="blog_stat_item">
 								<img src="assets/images/blog/view.png" class="blog_stat_photo">
-								<?php echo $article_views; ?>
+								<?php echo $article_data['views']; ?>
 							</div>
 							<div class="blog_stat_item">
 								<img src="assets/images/blog/like.png" class="blog_stat_photo">
-								<?php echo $article_likes; ?>
+								<?php echo $article_data['likes']; ?>
 							</div>
 						</div>
 						<div class="blog_date">
-							<?php echo $article_pubdate; ?>
+							<?php echo $article_data['pubdate']; ?>
 						</div>
 					</div>
 				</div>
+			<?php } ?>
 				<div class="blog_item">
 					<div class="blog_item_header">
 						<a href="#">
