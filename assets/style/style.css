@@ -51,9 +51,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header_content{
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	display: flex;
 }
 
 .header_logo{
@@ -100,6 +100,15 @@ h1, h2, h3, h4, h5, h6{
 
 .nav_link:hover:after{
 	opacity: 1;
+}
+
+.admin_img{
+	position: absolute;
+
+	bottom: 13px;
+
+	height: 20px;
+	width: 19px;
 }
 
 /*Intro*/
@@ -628,13 +637,18 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .documents_item{
-	width: 49%;
+	width: 48%;
+	border: 5px solid #fff;
+	padding-bottom: 50px;
 }
 
 .documents_item_title{
 	font-size: 25px;
 	text-align: center;
 
+	border-bottom: 5px solid #fff;
+
+	padding-bottom: 15px;
 	margin-top: 3%;
 }
 
@@ -724,11 +738,23 @@ h1, h2, h3, h4, h5, h6{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
 	width: 50%;
+
+	border: 5px solid #fff;
+
+	padding-bottom: 20px;
 }
 
 .competition_item_title{
+	width: 100%;
+
 	font-size: 25px;
+	text-align: center;
+
+	border-bottom: 5px solid #fff;
+
+	padding: 10px 0;
 }
 
 .competition_item_inner{

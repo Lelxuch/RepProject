@@ -20,6 +20,7 @@
 						<a class="nav_link" href="#" onclick="slowScroll('#rating_link')">Наши ученики</a>
 						<a class="nav_link" href="#" onclick="slowScroll('#event_link')">Ближайшие события</a>
 						<a class="nav_link" href="#" onclick="slowScroll('#blog_link')">Блог</a>
+						<a class="nav_link" href="admin.html" target="_blank"><img class="admin_img" src="assets/images/header/header_user.png"></a>
 					</nav>
 				</div>
 			</div>

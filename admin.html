@@ -1,0 +1,29 @@
+<?php require "includes/config.php"; ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/style/style_admin.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Jomolhari|Roboto|Kaushan+Script|Montserrat|Open+Sans&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>Вход</title>
+</head>
+<body>
+    <div class="main">
+		<form class="form" action="login.php" method="post">
+			<div class="form_content">
+				<div class="form_title">
+					Вход
+				</div>
+
+				<label for="username">Имя пользователя</label>
+				<input class="user_input" type="text" name="username" required>
+
+				<label for="pswd">Пароль</label>
+				<input class="pswd_input" type="password" name="pswd" required>
+
+				<button class="submit_btn" type="submit" name="submit">Войти</button>
+			</div>
+		</form>
+    </div>
+</body>
+</html>
