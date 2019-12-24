@@ -505,7 +505,6 @@
 	   </div>
 	</div>
 
-	<?php require "includes/article.php"; ?>
 	<div class="blog" id="blog_link">
 		<div class="blog_all_header">
 		   <div class="container">
@@ -529,30 +528,35 @@
 	   	<div class="container">
 			<div class="blog_posts">
 				<div class="blog_item">
+					<?php
+					require "includes/config.php";
+					$article_id = 1;
+					$article = mysqli_query($connection, 'SELECT * FROM blog_article WHERE id = ' . $article_id);
+					while( $article_data = mysqli_fetch_assoc($article) ){?>
 					<div class="blog_item_header">
 						<a href="blog.php">
 							<img class="blog_photo" src="assets/images/blog/post1.jpg">
 						</a>
 					</div>
 					<div class="blog_item_content">
-						<a href="blog.php" class="blog_title"><div><?php echo $article_title; ?></div></a>
+						<a href="blog.php" class="blog_title"><div><?php echo $article_data['title']; ?></div></a>
 						<div class="blog_text">
-							<?php echo $article_description; ?>
+							<?php echo $article_data['description']; ?>
 						</div>
 					</div>
 					<div class="blog_footer">
 						<div class="blog_stat">
 							<div class="blog_stat_item">
 								<img src="assets/images/blog/view.png" class="blog_stat_photo">
-								<?php echo $article_views; ?>
+								<?php echo $article_data['views']; ?>
 							</div>
 							<div class="blog_stat_item">
 								<img src="assets/images/blog/like.png" class="blog_stat_photo">
-								<?php echo $article_likes; ?>
+								<?php echo $article_data['likes']; ?>
 							</div>
 						</div>
 						<div class="blog_date">
-							<?php echo $article_pubdate; ?>
+							<?php echo $article_data['pubdate']; }?>
 						</div>
 					</div>
 				</div>
@@ -618,7 +622,6 @@
 		   	</div>
 	   	</div>
 	</div>
-
 	<div class="footer">
 		<div class="footer_content">
 			<div class="footer_header">
