@@ -1,8 +1,8 @@
-<?php require "includes/config.php"; ?>
+<?php require "../../includes/config.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/style/style_table.css">
+    <link rel="stylesheet" type="text/css" href="../style/style_table.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Jomolhari|Roboto|Kaushan+Script|Montserrat|Open+Sans&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <title>Архив достижений</title>
@@ -11,7 +11,7 @@
     <div class="table_all_header">
         <div class="container">
             <div class="table_header">
-                <a class="table_head_arrow" href="index.php"></a>
+                <a class="table_head_arrow" href="../index.php"></a>
                 <div class="table_head_title">
                     Архив достижений
                 </div>

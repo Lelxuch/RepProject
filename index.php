@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="assets/style/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/style/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Jomolhari|Roboto|Kaushan+Script|Montserrat|Open+Sans&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
 	<title>БИЛ</title>
@@ -20,7 +20,7 @@
 						<a class="nav_link" href="#" onclick="slowScroll('#rating_link')">Наши ученики</a>
 						<a class="nav_link" href="#" onclick="slowScroll('#event_link')">Ближайшие события</a>
 						<a class="nav_link" href="#" onclick="slowScroll('#blog_link')">Блог</a>
-						<a class="nav_link" href="admin.html" target="_blank"><img class="admin_img" src="assets/images/header/header_user.png"></a>
+						<a class="nav_link" href="assets/pages/login.html" target="_blank"><img class="admin_img" src="assets/images/header/header_user.png"></a>
 					</nav>
 				</div>
 			</div>
@@ -346,7 +346,7 @@
 					   </div>
 				   </div>
 				   <div class="rating_header_item">
-				   		<a class="rating_header_archive_btn" target="_blank" href="table.php">Архив достижений</a>
+				   		<a class="rating_header_archive_btn" target="_blank" href="pages/table.php">Архив достижений</a>
 				   </div>
 			   </div>
 		   </div>
@@ -441,7 +441,7 @@
 			   <div class="event_item">
 				   <div class="event_item_header">
 					   <div class="event_title">Соревнования по баскетболу</div>
-					   <a href="event.html">
+					   <a href="assets/pages/event.html">
 						   <img class="event_photo" src="assets/images/event/basketball.jpg">
 					   </a>
 					   <div class="event_date">
@@ -455,7 +455,7 @@
 				   </div>
 				   <div class="event_footer">
 					   <div class="event_button">
-						   <a class="event_button_link" href="event.html">Узнать больше</a>
+						   <a class="event_button_link" href="assets/pages/event.html">Узнать больше</a>
 					   </div>
 				  </div>
 			   </div>
@@ -534,12 +534,12 @@
 					$article = mysqli_query($connection, 'SELECT * FROM blog_article WHERE id = ' . $article_id);
 					while( $article_data = mysqli_fetch_assoc($article) ){?>
 					<div class="blog_item_header">
-						<a href="blog.php">
+						<a href="assets/pages/blog.php">
 							<img class="blog_photo" src="assets/images/blog/post1.jpg">
 						</a>
 					</div>
 					<div class="blog_item_content">
-						<a href="blog.php" class="blog_title"><div><?php echo $article_data['title']; ?></div></a>
+						<a href="assets/pages/blog.php" class="blog_title"><div><?php echo $article_data['title']; ?></div></a>
 						<div class="blog_text">
 							<?php echo $article_data['description']; ?>
 						</div>

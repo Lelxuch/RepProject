@@ -1,8 +1,8 @@
-<?php require "includes/config.php"; ?>
+<?php require "../../includes/config.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/style/style_blog.css">
+    <link rel="stylesheet" type="text/css" href="../style/style_blog.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Jomolhari|Roboto|Kaushan+Script|Montserrat|Open+Sans&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <title>Блог</title>
@@ -16,7 +16,7 @@
     <div class="blog_all_header">
         <div class="container">
             <div class="blog_header">
-                <a class="blog_head_arrow" href="index.php"></a>
+                <a class="blog_head_arrow" href="../../index.php"></a>
                 <div class="blog_head_title">
                     <?php echo $article_title; ?>
                 </div>
@@ -25,7 +25,7 @@
     </div>
     <div class="content">
         <div class="container">
-            <img class="book_img" src="assets/images/blog/post1.jpg" alt="books">
+            <img class="book_img" src="../assets/images/blog/post1.jpg" alt="books">
 						<?php
 							$article_content = mysqli_query($connection, 'SELECT * FROM blog_content WHERE article_id = ' . $article_id);
 						?>
