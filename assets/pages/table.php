@@ -11,7 +11,7 @@
     <div class="table_all_header">
         <div class="container">
             <div class="table_header">
-                <a class="table_head_arrow" href="../index.php"></a>
+                <a class="table_head_arrow" href="../../index.php"></a>
                 <div class="table_head_title">
                     Архив достижений
                 </div>

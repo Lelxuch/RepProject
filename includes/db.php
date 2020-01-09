@@ -7,5 +7,4 @@ $connection = mysqli_connect(
 if( !$connection ){
 	echo 'Ошибка подключения';
 	exit();
-}
-?>
+}?>

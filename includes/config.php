@@ -7,5 +7,5 @@ $config = array(
 		'name' => 'karbil_db'
 	)
 );
-require_once "db.php";
+require "db.php";
 ?>

@@ -346,7 +346,7 @@
 					   </div>
 				   </div>
 				   <div class="rating_header_item">
-				   		<a class="rating_header_archive_btn" target="_blank" href="pages/table.php">Архив достижений</a>
+				   		<a class="rating_header_archive_btn" target="_blank" href="assets/pages/table.php">Архив достижений</a>
 				   </div>
 			   </div>
 		   </div>
