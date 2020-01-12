@@ -11,7 +11,7 @@
     <div class="table_all_header">
         <div class="container">
             <div class="table_header">
-                <a class="table_head_arrow" href="../../index.php"></a>
+                <a class="table_head_arrow" href="../../index.php#rating_link"></a>
                 <div class="table_head_title">
                     Архив достижений
                 </div>
@@ -20,9 +20,6 @@
     </div>
     <div class="content">
         <div class="container">
-            <div class="">
-
-            </div>
             <table class="all_table" border="1">
                 <tr>
                     <th class="th_olympiad">Название</th>
@@ -37,7 +34,23 @@
                 <?php
                   $result = mysqli_query($connection, 'SELECT * FROM achievement ORDER BY title');
                   while ( ($record = mysqli_fetch_assoc($result)) ){
-                      echo '<tr><td>'.$record['title'].'</td>'.'<td>'.$record['year'].'</td>'.'<td>'.$record['scope'].'</td>'.'<td>'.$record['name'].'</td>'.'<td>'.$record['medal'].'</td>'.'<td>'.$record['subject'].'</td>'.'<td>'.$record['grade'].'</td>'.'<td>'.$record['location'].'</td></tr>';
+                      echo '<tr><td>'.
+                      $record['title']
+                      .'</td>'.'<td>'.
+                      $record['year']
+                      .'</td>'.'<td>'.
+                      $record['scope']
+                      .'</td>'.'<td>'.
+                      $record['name']
+                      .'</td>'.'<td>'.
+                      $record['medal']
+                      .'</td>'.'<td>'.
+                      $record['subject']
+                      .'</td>'.'<td>'.
+                      $record['grade']
+                      .'</td>'.'<td>'.
+                      $record['location']
+                      .'</td></tr>';
                   }
                 ?>
             </table>
