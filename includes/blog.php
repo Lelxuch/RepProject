@@ -8,10 +8,10 @@
                <div class="blog_head_item">
                    <div class="blog_head_inner">
                        <div class="blog_head_subtitle">
-                           Наши истории
+                           <?php echo $config[$lang]['blog_head_subtitle']; ?>
                        </div>
                        <div class="blog_head_title">
-                           Последние статьи
+                           <?php echo $config[$lang]['blog_head_title']; ?>
                        </div>
                    </div>
                </div>
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="blog_date">
-                        <?php echo date("j", strtotime($article['pubdate'])) ." ". $config['russian'][date("F", strtotime($article['pubdate']))]; ?>
+                        <?php echo date("j", strtotime($article['pubdate'])) ." ". $config['month_ru'][date("F", strtotime($article['pubdate']))]; ?>
                     </div>
                 </div>
             </div>

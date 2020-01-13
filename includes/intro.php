@@ -2,9 +2,9 @@
     <div class="container">
         <div class="intro_content">
             <div class="intro_title">
-                "Білім-инновация" лицей
+                <?php echo $config[$lang]['intro_title']; ?>
             </div>
-            <a href="#" class="intro_btn" onclick="slowScroll('#about_link')">Узнать больше</a>
+            <a href="#" class="intro_btn" onclick="slowScroll('#about_link')"><?php echo $config[$lang]['intro_btn']; ?></a>
         </div>
     </div>
 </div>

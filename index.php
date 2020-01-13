@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="/assets/style/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Jomolhari|Roboto|Kaushan+Script|Montserrat|Open+Sans&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
-	<title>БИЛ</title>
+	<title><?php echo $config[$lang]['index_title']; ?></title>
 </head>
 <body>
 	<?php
