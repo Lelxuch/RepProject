@@ -6,6 +6,6 @@ if ( isset($_GET['language']) ){
 
 /* default language is set to russian*/
 else {
-    $lang = 'en';
+    $lang = 'ru';
 }
 ?>
