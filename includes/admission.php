@@ -8,10 +8,10 @@
                 <div class="admission_head_item">
                     <div class="admission_head_inner">
                         <div class="admission_head_subtitle">
-                            Хотите здесь учиться?
+                            <?php echo $config[$lang]['admission_head_subtitle']; ?>
                         </div>
                         <div class="admission_head_title">
-                            Поступление
+                            <?php echo $config[$lang]['admission_head_title']; ?>
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
             <div class="admission_item">
                 <div class="admission_item_element">
                     <div class="admission_item_element_text">
-                        1.Документы
+                        <?php echo $config[$lang]['admission_item_element_text_1']; ?>
                     </div>
                     <img class="admission_item_element_icon" src="../assets/images/admission/icons/documents_icon.png" alt="Documents">
                 </div>
@@ -34,7 +34,7 @@
             <div class="admission_item">
                 <div class="admission_item_element">
                     <div class="admission_item_element_text">
-                        2.Конкурс
+                        <?php echo $config[$lang]['admission_item_element_text_2']; ?>
                     </div>
                     <img class="admission_item_element_icon" src="../assets/images/admission/icons/competition_icon.png" alt="Competition">
                 </div>
@@ -45,7 +45,7 @@
             <div class="admission_item">
                 <div class="admission_item_element">
                     <div class="admission_item_element_text">
-                        3.Учеба
+                        <?php echo $config[$lang]['admission_item_element_text_3']; ?>
                     </div>
                     <img class="admission_item_element_icon" src="../assets/images/admission/icons/success_icon.png" alt="Success">
                 </div>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="documents_head_item">
                     <div class="documents_head_title">
-                        01.Документы
+                        <?php echo $config[$lang]['documents_head_title']; ?>
                     </div>
                 </div>
             </div>
@@ -72,23 +72,23 @@
         <div class="documents_content">
             <div class="documents_item">
                 <div class="documents_item_title">
-                    I этап
+                    <?php echo $config[$lang]['documents_item_title_1']; ?>
                 </div>
                 <div class="documents_item_inner">
                     <ul>
-                        <li>Заявление на участие в конкурсе</li>
-                        <li>Свидетельство о рождении, ИИН</li>
-                        <li>Фото 3х4 (2шт.)</li>
+                        <li><?php echo $config[$lang]['documents_item_inner_1']; ?></li>
+                        <li><?php echo $config[$lang]['documents_item_inner_2']; ?></li>
+                        <li><?php echo $config[$lang]['documents_item_inner_3']; ?></li>
                     </ul>
                 </div>
             </div>
             <div class="documents_item">
                 <div class="documents_item_title">
-                    II этап
+                    <?php echo $config[$lang]['documents_item_title_2']; ?>
                 </div>
                 <div class="documents_item_inner">
                     <ul>
-                        <li>Справка с места учебы</li>
+                        <li><?php echo $config[$lang]['documents_item_inner_11']; ?></li>
                     </ul>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="competition_head_item">
                     <div class="competition_head_title">
-                        02.Конкурс
+                        <?php echo $config[$lang]['competition_head_title']; ?>
                     </div>
                 </div>
             </div>
@@ -114,31 +114,31 @@
         <div class="competition_content">
             <div class="competition_item">
                 <div class="competition_item_title">
-                    I этап
+                    <?php echo $config[$lang]['competition_item_title']; ?>
                 </div>
                 <div class="competition_item_inner">
                     <div class="competition_inner_title">
-                        Задания первого тура состоят из 75 вопросов.
+                        <?php echo $config[$lang]['competiotion_inner_title']; ?>
                     </div>
                     <ul>
-                        <li>Математика и логика – 40 вопросов</li>
-                        <li>Казахский язык – 10 вопросов</li>
-                        <li>История Казахстана – 10 вопросов</li>
+                        <li><?php echo $config[$lang]['competition_inner_title_1']; ?></li>
+                        <li><?php echo $config[$lang]['competition_inner_title_2']; ?></li>
+                        <li><?php echo $config[$lang]['competition_inner_title_3']; ?></li>
                     </ul>
                 </div>
             </div>
             <div class="competition_item">
                 <div class="competition_item_title">
-                    II этап
+                    <?php echo $config[$lang]['competition_item_title_2']; ?>
                 </div>
                 <div class="competition_item_inner">
                     <div class="competition_inner_title">
-                        Задания второго тура состоят из 75 вопросов.
+                        <?php echo $config[$lang]['competition_inner_title_22']; ?>
                     </div>
                     <ul>
-                        <li>Математика и логика – 55 вопросов</li>
-                        <li>Казахский язык – 10 вопросов</li>
-                        <li>История Казахстана – 10 вопросов</li>
+                        <li><?php echo $config[$lang]['competition_inner_title_31']; ?></li>
+                        <li><?php echo $config[$lang]['compertition_inner_title_32']; ?></li>
+                        <li><?php echo $config[$lang]['competition_inner_title_33']; ?></li>
                     </ul>
                 </div>
             </div>

@@ -8,15 +8,15 @@
                <div class="rating_head_item">
                    <div class="rating_head_inner">
                        <div class="rating_head_subtitle">
-                           Лучшие из лучших
+                           <?php echo $config[$lang]['rating_head_subtitle']; ?>
                        </div>
                        <div class="rating_head_title">
-                           Наши ученики
+                           <?php echo $config[$lang]['rating_head_title']; ?>
                        </div>
                    </div>
                </div>
                <div class="rating_header_item">
-                    <a class="rating_header_archive_btn" target="_blank" href="../assets/pages/table.php">Архив достижений</a>
+                    <a class="rating_header_archive_btn" target="_blank" href="../assets/pages/table.php"><?php echo $config[$lang]['rating_header_archive_btn']; ?></a>
                </div>
            </div>
        </div>
