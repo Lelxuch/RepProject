@@ -137,7 +137,7 @@
                     </div>
                     <ul>
                         <li><?php echo $config[$lang]['competition_inner_title_31']; ?></li>
-                        <li><?php echo $config[$lang]['compertition_inner_title_32']; ?></li>
+                        <li><?php echo $config[$lang]['competition_inner_title_32']; ?></li>
                         <li><?php echo $config[$lang]['competition_inner_title_33']; ?></li>
                     </ul>
                 </div>
