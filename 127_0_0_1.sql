@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Янв 13 2020 г., 06:35
+-- Время создания: Янв 13 2020 г., 06:37
 -- Версия сервера: 10.3.13-MariaDB-log
 -- Версия PHP: 7.1.32
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- База данных: `karbil_db`
 --
+CREATE DATABASE IF NOT EXISTS `karbil_db` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `karbil_db`;
 
 -- --------------------------------------------------------
 
