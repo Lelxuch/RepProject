@@ -14,7 +14,7 @@ if ( isset($_POST['submit']) ){
     // if this user was found in the database
     else {
         if ( $data['password'] == $_POST['pswd']){
-            header ('Location: ../assets/pages/admin.html');
+            header ('Location: ../assets/pages/admin/home.php');
             exit();
         }
         else {
