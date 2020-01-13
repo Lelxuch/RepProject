@@ -1,3 +1,10 @@
+<div class="lang">
+        <div class="lang_content">
+                <a class="lang_item" href="#">ru</a>
+                <a class="lang_item" href="#">kz</a>
+                <a class="lang_item" href="#">en</a>
+        </div>
+</div>
 <header class="header">
     <div class="header_line">
         <div class="container">

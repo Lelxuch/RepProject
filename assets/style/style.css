@@ -26,6 +26,35 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0 auto;
 }
 
+/* Lang */
+.lang{
+	position: absolute;
+	width: 100%;
+}
+
+.lang_content{
+	display: flex;
+	justify-content: flex-end;
+
+	margin-top: 5px;
+}
+
+.lang_item{
+	margin-right: 7px;
+
+	text-decoration: none;
+	color: #fff;
+
+	border: 1px solid #fff;
+
+	padding: 0px 2px;
+}
+
+.lang_item:hover{
+	background: #fff;
+	color: #17a6ac;
+}
+
 /* Header */
 .header{
 	width: 100%;
