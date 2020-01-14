@@ -1,11 +1,18 @@
 <?php
-/* if user changed language */
-if ( isset($_GET['language']) ){
-    $lang = $_GET['language'];
-}
+$lang = 'ru';
 
-/* default language is set to russian*/
-else {
-    $lang = 'en';
+if ( isset($_GET['language']) ){
+    switch ($_GET['language']) {
+        case 'ru':
+            $lang = 'ru';
+            break;
+        case 'kz':
+            $lang = 'kz';
+            break;
+        default:
+            $lang = 'ru';
+            break;
+    }
+    header('Refresh: 0; url=../index.php');
 }
 ?>

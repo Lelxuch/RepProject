@@ -1,8 +1,13 @@
 <div class="lang">
         <div class="lang_content">
-                <a class="lang_item" href="#">ru</a>
-                <a class="lang_item" href="#">kz</a>
-                <a class="lang_item" href="#">en</a>
+                <a class="lang_item" href="language.php?language=ru">ru</a>
+                <a class="lang_item" href="language.php?language=kz">kz</a>
+                <a class="lang_item" href="language.php?language=en">en</a>
+                <!--<form class="lang_content" action="language.php" method="post">
+                    <input type="submit" name="ru" value="ru" class="lang_item">
+                    <input type="submit" name="kz" value="kz" class="lang_item">
+                    <input type="submit" name="en" value="en" class="lang_item"> -->
+                </form>
         </div>
 </div>
 <header class="header">
