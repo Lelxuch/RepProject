@@ -1,3 +1,11 @@
+<div class="lang">
+        <div class="lang_content">
+                <form action="index.php" method="post">
+                    <input type="submit" name="en" value="EN">
+                    <input type="submit" name="ru" value="RU">
+                </form>
+        </div>
+</div>
 <header class="header">
     <div class="header_line">
         <div class="container">
