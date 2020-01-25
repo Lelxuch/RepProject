@@ -11,7 +11,7 @@ body{
 
 *,
 *after,
-before{
+*before{
 	box-sizing: border-box;
 }
 
@@ -40,14 +40,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .lang_item{
-	margin-right: 7px;
-
-	text-decoration: none;
-	color: #fff;
-
-	border: 1px solid #fff;
-
-	padding: 0px 2px;
+	cursor: pointer;
 }
 
 .lang_item:hover{
@@ -131,10 +124,21 @@ h1, h2, h3, h4, h5, h6{
 	opacity: 1;
 }
 
-.admin_img{
+/* User and Search */
+.user_img{
 	position: absolute;
 
 	bottom: 13px;
+
+	height: 20px;
+	width: 19px;
+}
+
+.search_img{
+	position: absolute;
+
+	bottom: 13px;
+	margin-left: 10px;
 
 	height: 20px;
 	width: 19px;
@@ -1452,7 +1456,7 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 10px;
 }
 
-.foter_soc{
+.footer_soc{
 	display:flex;
 	justify-content: flex-start
 }

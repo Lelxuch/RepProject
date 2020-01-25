@@ -40,7 +40,7 @@ $config = array(
 		'header_about' => 'О нас',
 		'header_advantage' => 'Преимущества',
 		'header_admission' => 'Поступающим',
-		'header_rating' => 'Наши ученики',
+		'header_rating' => 'Наша гордость',
 		'header_event' => 'Ближайшие события',
 		'header_blog' => 'Блог',
 
@@ -141,7 +141,7 @@ $config = array(
 		'header_about' => 'About us',
 		'header_advantage' => 'Advantages',
 		'header_admission' => 'Admissions',
-		'header_rating' => 'Our students',
+		'header_rating' => 'Our honor',
 		'header_event' => 'Upcoming events',
 		'header_blog' => 'Blog',
 
