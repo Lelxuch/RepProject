@@ -19,7 +19,7 @@
 				<div class="type">
 					<div class="type_content">
 						<label class="type_title">Выберите тип пользователя</label>
-						<select class="dropdown" name="sel_type" require>
+						<select class="dropdown" name="sel_type" required>
 							<option value="all">-</option>
 							<option value="student">Я ученик</option>
 							<option value="teacher">Я учитель</option>
