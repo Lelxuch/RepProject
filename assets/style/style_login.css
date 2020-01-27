@@ -6,7 +6,7 @@ body{
 
 	line-height: 1.5;
 
-	color: #fff;
+	color: #627071;
 }
 
 *,
@@ -28,17 +28,22 @@ h1, h2, h3, h4, h5, h6{
     height: 100vh;
 }
 
-.form {
-    border: 3px solid #e9e5e5;
-}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.form_content{
 	width: 100%;
-	max-width: 450px;
 
     padding: 40px 55px;
 
     text-align: center;
+
+    border: 3px solid #e9e5e5;
+}
+
+.form_content{ 
+    
 }
 
 .form_title{
@@ -59,6 +64,23 @@ h1, h2, h3, h4, h5, h6{
 
     border: 1px solid #b8d3c0;
     box-sizing: border-box;
+}
+
+.type{
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+
+    padding-top: 30px;
+}
+
+.type_content{
+    
+}
+
+.type_title{
+    padding-right: 5px;
 }
 
 .submit_btn{
