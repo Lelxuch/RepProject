@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0;
 }
 
+/* Login */
 .main{
     display: flex;
     justify-content: center;
@@ -26,63 +27,62 @@ h1, h2, h3, h4, h5, h6{
 
     width: 100%;
     height: 100vh;
+
+    text-align: center;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-	width: 100%;
+/* Form */
+.form {
+    border: 3px solid #e9e5e5;
 
     padding: 40px 55px;
 
     text-align: center;
-
-    border: 3px solid #e9e5e5;
-}
-
-.form_content{ 
-    
 }
 
 .form_title{
     font-size: 35px;
-    color: #627071;
 
-	margin-bottom: 35px;
+	margin-bottom: 45px;
 	margin-top: 10px;
 }
 
-.user_input, .pswd_input{
-    display: inline-block;
-
-    width: 100%;
-
-    padding: 12px 20px;
-    margin: 8px ;
-
-    border: 1px solid #b8d3c0;
-    box-sizing: border-box;
-}
-
+/* Select */
 .type{
     display: flex;
-    justify-content: flex-end;
 
-    width: 100%;
+    margin-bottom: 25px;
+    margin-left: 10px;
 
-    padding-top: 30px;
-}
-
-.type_content{
-    
+    font-size: 16px;
 }
 
 .type_title{
     padding-right: 5px;
 }
 
+.user_input, .pswd_input{
+    width: 100%;
+
+    padding: 12px 20px;
+    margin: 8px ;
+
+    box-sizing: border-box;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 40px;
+}
+
+.reg_link{
+    text-decoration: none;
+}
+
+/* Submit btn */
 .submit_btn{
     background-color: #4CAF50;
     color: #fff;
