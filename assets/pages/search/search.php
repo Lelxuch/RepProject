@@ -7,6 +7,9 @@
     <title>Поиск</title>
 </head>
 <body>
+    <div class="back">
+		<a href="../../../index.php"><img class="back_img" src="../../images/arrow/arrow_white.png"></a>
+	</div>  
     <div class="search">
         <div class="container">
             <div class="search_content">
