@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+
+	font-family: 'Roboto', sans-serif; /* ??????????????????? */
+	font-size: 15px;
+
+	line-height: 1.5;
+
+    color: #333;
+}
+
+*,
+*after,
+*before{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+
+	margin: 0 auto;
+}
+
+/* Register */
+.register{ 
+    display: flex;
+
+    width: 100%;
+    height: 100vh;
+}
+
+/* Reg type */
+.reg_type{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+
+    border-right: 3px solid #ababab;
+}
+
+.reg_teacher{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 50%;
+
+    border-bottom: 3px solid #ababab;
+}
+
+.reg_student{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 50%;
+}
+
+/* Checkbox */
+.checkbox{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/* Content */
+.reg_teacher_content{
+    display: flex;
+    align-items: center;
+
+    margin-left: 40px;
+}
+
+.reg_student_content{
+    display: flex;
+    align-items: center;
+
+    margin-left: 40px;
+
+    width: 100%;
+}
+
+/* Images */
+.reg_img{
+    width: 200px;
+    height: 250px;
+    
+    margin-right: 150px;
+}
+
+/* Text */
+.reg_text{
+    font-size: 70px;
+
+    margin-right: 150px;
+}
+
+/* Continue */
+.continue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continue_btn{
+    width: 350px;
+    height: 200px;
+
+    background: url("../images/register/continue.png") no-repeat center;
+    background-size: cover;
+    
+    margin-left: 130px;
+
+    border: none;
+}
+
+    input[type="radio"]:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }

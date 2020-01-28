@@ -27,7 +27,7 @@
 			<input class="user_input" type="text" name="username" placeholder="Логин" required>
 			<input class="pswd_input" type="password" name="pswd" placeholder="Пароль" required>
 			<div class="footer">
-				<a class="reg_link" href="">Зарегистрируйтесь</a>
+				<a class="reg_link" href="register/register.php">Зарегистрируйтесь</a>
 			</div>
 			<button class="submit_btn" type="submit" name="submit">Войти</button>
 		</form>
