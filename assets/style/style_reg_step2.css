@@ -25,3 +25,65 @@ h1, h2, h3, h4, h5, h6{
 
 	margin: 0 auto;
 }
+
+/* Register */
+.register{
+	width: 100%;
+	height: 100vh;
+}
+
+/* Title */
+.header_title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 35px;
+	font-weight: 700;
+
+	height: 10%;
+
+	border-bottom: 3px solid #ababab;
+}
+
+/* Reg content */
+.reg_content{
+	display: flex;
+	justify-content: space-between;
+
+	height: 90%;
+}
+
+/* Reg field */
+.reg_field{
+	display: flex;
+	flex-direction: column;
+
+	height: 100%;
+}
+
+/* Reg item */
+.reg_item{
+	height: 33.3%;
+
+	border-bottom: 3px solid #ababab;
+}
+
+/* Reg type */
+.reg_type{
+	display: flex;
+	align-items: center;
+	height: 100%;
+
+	padding-left: 75px;
+	padding-right: 75px;
+
+	border-right: 3px solid #ababab;
+}
+
+/* Hint */
+.hint{
+	width: 20%;
+
+	background: red;
+}
