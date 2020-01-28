@@ -8,6 +8,9 @@
 	<title>Вход</title>
 </head>
 <body>
+	<div class="back">
+		<a href="../../index.php"><img class="back_img" src="../images/arrow/arrow_grey.png"></a>
+	</div>
     <div class="main">
 		<form class="form" action="../../includes/login_check.php" method="post">
 			<div class="form_title">

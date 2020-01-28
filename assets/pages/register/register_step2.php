@@ -8,6 +8,9 @@
 	<title>Регистрация</title>
 </head>
 <body>
+	<div class="header">
+		<div class="header_title">Личные данные</div>
+	</div>
     <div class="register">
         
     </div>

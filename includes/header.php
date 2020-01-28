@@ -18,8 +18,8 @@
                     <a class="nav_link" href="assets/pages/hz/awards.php"><?php echo $config[$lang]['header_rating']; ?></a>
                     <a class="nav_link" href="#" onclick="slowScroll('#event_link')"><?php echo $config[$lang]['header_event']; ?></a>
                     <a class="nav_link" href="#" onclick="slowScroll('#blog_link')"><?php echo $config[$lang]['header_blog']; ?></a>
-                    <a class="nav_link" href="assets/pages/login.php" target="_blank"><img class="user_img" src="../assets/images/header/header_user.png"></a>
-                    <a class="nav_link" href="assets/pages/search/search.php" target="_blank"><img class="search_img" src="../assets/images/header/header_search.png"></a>
+                    <a class="nav_link" href="assets/pages/login.php"><img class="user_img" src="../assets/images/header/header_user.png"></a>
+                    <a class="nav_link" href="assets/pages/search/search.php"><img class="search_img" src="../assets/images/header/header_search.png"></a>
                 </nav>
             </div>
         </div>
