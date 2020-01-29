@@ -11,9 +11,9 @@
     <div class="register">
         <div class="container">
             <div class="content">
-                <div class="block">
-                    <div class="header">Тип пользователя</div>
-                    <form action="type_check.php">
+                <form action="register_type.php">
+                    <div class="block">
+                        <div class="header">Тип пользователя</div>
                         <div class="list">
                             <input id="teacher_radio" class="radio" type="radio" name="reg_type" value="teacher" required>
                             <label for="teacher_radio" class="teacher_block">
@@ -35,8 +35,8 @@
                         <div class="continue">
                             <button class="continue_btn" type="submit" name="submit_reg_type">Продолжить</button>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
