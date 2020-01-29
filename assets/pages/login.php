@@ -1,12 +1,14 @@
 <?php require "../../includes/config.php"; ?>
 <!DOCTYPE html>
 <html>
+
 <head>
 	<link rel="stylesheet" type="text/css" href="../style/style_login.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Jomolhari|Roboto|Kaushan+Script|Montserrat|Open+Sans&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
 	<title>Вход</title>
 </head>
+
 <body>
 	<div class="back">
 		<a href="../../index.php"><img class="back_img" src="../images/arrow/arrow_grey.png"></a>
@@ -34,6 +36,7 @@
 			</div>
 			<button class="submit_btn" type="submit" name="submit">Войти</button>
 		</form>
-    </div>
+	</div>
 </body>
+
 </html>
