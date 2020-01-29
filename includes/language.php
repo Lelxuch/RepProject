@@ -17,9 +17,11 @@ $lang = 'ru';
 }*/
 
 if ( isset($_POST['en']) ){
+    $_POST = array();
     $lang = 'en';
 }
 if ( isset($_POST['ru']) ){
+    $_POST = array();
     $lang = 'ru';
 }
 ?>

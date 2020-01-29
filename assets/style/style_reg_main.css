@@ -6,7 +6,7 @@ body{
 
 	line-height: 1.5;
 
-    color: #333;
+    color: #fff;
 }
 
 *,
@@ -21,103 +21,176 @@ h1, h2, h3, h4, h5, h6{
 
 .container{
 	width: 100%;
-	max-width: 1200px;
+	max-width: 700px;
 
 	margin: 0 auto;
 }
 
 /* Register */
-.register{ 
-    display: flex;
-
+.register{
     width: 100%;
     height: 100vh;
+
+    background: url("../images/register/background.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-/* Reg type */
-.reg_type{
+/* Content */
+.content{
+    width: 100%;
+    height: 100%;
+
+    padding-top: 50px;
+}
+
+/* Block */
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 650px;
+
+    background: #504f93;
+    border: 2px solid #4dc2cb;
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 150px;
+
+    background: #503582;
+    border-bottom: 2px solid #4dc2cb;
+
+    font-size: 35px;
+}
+
+/* List */
+.list{
+    display: flex;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+/* Radio */
+.radio{
+    display: none;
+}
+
+/* T and S blocks */
+.teacher_block{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
-    height: 100%;
+    border-right: 2px solid #4dc2cb;
 
-    border-right: 3px solid #ababab;
+    width: 50%;
 }
 
-.reg_teacher{
+.student_block{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-
-    width: 100%;
-    height: 50%;
-
-    border-bottom: 3px solid #ababab;
-}
-
-.reg_student{
-    display: flex;
-    justify-content: space-between;
-
-    width: 100%;
-    height: 50%;
-}
-
-/* Checkbox */
-.checkbox{
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-
-/* Content */
-.reg_teacher_content{
-    display: flex;
     align-items: center;
 
-    margin-left: 40px;
+    width: 50%;
 }
 
-.reg_student_content{
+/* Condition */
+.condition{
     display: flex;
-    align-items: center;
-
-    margin-left: 40px;
+    justify-content: flex-start;
 
     width: 100%;
 }
 
-/* Images */
-.reg_img{
-    width: 200px;
+.student_cond{
+    width: 30px;
+    height: 30px;
+
+    background: url("../images/register/cond_white.png") no-repeat center;
+    background-size: cover;
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.teacher_cond{
+    width: 30px;
+    height: 30px;
+
+    background: url("../images/register/cond_white.png") no-repeat center;
+    background-size: cover;
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* Checked */
+#teacher_radio:checked + label .teacher_cond{
+    background: url("../images/register/cond_green.png") no-repeat center;
+    background-size: cover;
+}
+
+#student_radio:checked + label .student_cond{
+    background: url("../images/register/cond_green.png") no-repeat center;
+    background-size: cover;
+}
+
+/* T and S img */
+.teacher_img{
+    width: 250px;
     height: 250px;
-    
-    margin-right: 150px;
+
+    background: url("../images/register/teacher.png") no-repeat center;
+    background-size: cover;
 }
 
-/* Text */
-.reg_text{
-    font-size: 70px;
+.student_img{
+    width: 250px;
+    height: 250px;
 
-    margin-right: 150px;
+    background: url("../images/register/student.png") no-repeat center;
+    background-size: cover;
+}
+
+/* T and S text */
+.text{
+    margin-bottom: 60px;
+
+    font-size: 32px;
 }
 
 /* Continue */
 .continue{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .continue_btn{
-    width: 350px;
-    height: 200px;
+    height: 100px;
+    width: 100%;
 
-    background: url("../images/register/continue.png") no-repeat center;
-    background-size: cover;
-    
-    margin-left: 130px;
+    border:none;
+    border-top: 2px solid #4dc2cb;
 
-    border: none;
+    background: #504f93;
+
+    color: #fff;
+    font-size: 32px;
+
+    transition: color 0.2s;
+}
+
+.continue_btn:hover{
+    background: #505a9d;
 }
