@@ -232,4 +232,8 @@ $config = array(
 /* connecting to database and language script */
 require "db.php";
 require "language.php";
+
+function GoToNow ($url){
+    echo '<script language="javascript">window.location.href ="'.$url.'"</script>';
+}
 ?>

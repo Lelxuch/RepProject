@@ -9,11 +9,11 @@
 </head>
 <body>
     <div class="register">
-        <form action="register.php">
+        <form action="type_check.php" method="post">
             <div class="reg_type">
                 <label class="reg_teacher" for="radio_teacher">
                     <div class="checkbox">
-                        <input class="radio" id="radio_teacher" type="radio" name="radio_type" value="teacher">
+                        <input class="radio" id="radio_teacher" type="radio" name="reg_type" value="teacher">
                     </div>
                     <div class="reg_teacher_content">
                         <div for="radio_teacher">
@@ -24,7 +24,7 @@
                 </label>
                 <label class="reg_student">
                     <div class="checkbox">
-                        <input class="radio" id="radio_student"type="radio" name="radio_type" value="student">
+                        <input class="radio" id="radio_student" type="radio" name="reg_type" value="student">
                     </div>
                     <div class="reg_student_content">
                         <div for="radio_student">
@@ -34,9 +34,9 @@
                     </div>
                 </label>
             </div>
-        </form>
-        <form class="continue" action="register.php">
-            <button type="submit" class="continue_btn"></button>
+            <div class="continue">
+                <button type="submit" name="submit_reg_type" class="continue_btn"></button>
+            </div>
         </form>
     </div>
 </body>
