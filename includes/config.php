@@ -53,7 +53,7 @@ $config = array(
 		'about_title' => 'Лицей-интернат "Білім-инновация" №1',
 		'about_text' => 'Впервые в Казахстане "Казахско-турецкие" лицеи открылись в 1992 году,
 		решением президентов двух стран, Казахстана и Турции, в городах
-		Туркестан и Кокшетау. А в нашем городе он был	 открыт в 1993 году.
+		Туркистан и Кокшетау. А в нашем городе он был	 открыт в 1993 году.
 		В 2017 году название лицея поменялось на Лицей-интернат "Білім-инновация" №1.',
 
 		/* advantage page */
@@ -232,8 +232,4 @@ $config = array(
 /* connecting to database and language script */
 require "db.php";
 require "language.php";
-
-function GoToNow ($url){
-    echo '<script language="javascript">window.location.href ="'.$url.'"</script>';
-}
 ?>

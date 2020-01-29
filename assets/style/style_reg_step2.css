@@ -21,73 +21,115 @@ h1, h2, h3, h4, h5, h6{
 
 .container{
 	width: 100%;
-	max-width: 1200px;
+	max-width: 700px;
 
 	margin: 0 auto;
 }
 
+
 /* Register */
 .register{
-	width: 100%;
-	height: 100vh;
+    width: 100%;
+    height: 100%;
 
-	background: url("../images/main_background/background.jpg") no-repeat center;
-	background-size: cover;
+    background: url("../images/register/background.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-/* Title */
-.header_title{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+/* Content */
+.content{
+    width: 100%;
+    height: 100%;
 
-	font-size: 35px;
-	font-weight: 700;
-
-	height: 10%;
-
-	border-bottom: 3px solid #ababab;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-/* Reg content */
-.reg_content{
-	display: flex;
-	justify-content: space-between;
+/* Block */
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-	height: 90%;
+    width: 100%;
+    height: 1000px;
+
+    background: #504f93;
+	border: 3px solid #4dc2cb;	
 }
 
-/* Reg field */
-.reg_field{
+/* Header */
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100px;
+
+    background: #503582;
+    border-bottom: 2px solid #4dc2cb;
+
+    font-size: 35px;
+}
+
+.list{
 	display: flex;
 	flex-direction: column;
 
+	width: 100%;
 	height: 100%;
 }
 
-/* Reg item */
-.reg_item{
-	height: 33.3%;
-
-	border-bottom: 3px solid #ababab;
-}
-
-/* Reg type */
-.reg_type{
-	display: flex;
+/* Subtitle */
+.subtitle{
+	display: flex;	
 	align-items: center;
 
-	height: 100%;
+	width: 100%;
 
-	padding-left: 75px;
-	padding-right: 75px;
-
-	border-right: 3px solid #ababab;
-
-	font-size: 30px;
+	margin-top: 30px;
 }
 
-/* Hint */
-.hint{
-	width: 20%;
+.sub_img{
+	width: 62px;
+	height: 62px;
+
+	transform: translate(-31px);
+}
+
+.sub_text{
+	display: flex;
+	justify-content: center;
+
+	width: 100%;
+
+	padding-right: 25px;
+
+	font-size: 25px;
+}
+
+/* Register btn */
+.reg{
+
+}
+
+.reg_btn{
+    height: 80px;
+    width: 100%;
+
+    border:none;
+    border-top: 2px solid #4dc2cb;
+
+    background: #504f93;
+
+    color: #fff;
+    font-size: 32px;
+
+    transition: color 0.2s;
+}
+
+.reg_btn:hover{
+    background: #505a9d;
 }
