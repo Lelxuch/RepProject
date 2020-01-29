@@ -1,6 +1,7 @@
 <?php
 $config = array(
-	/**/
+
+	/* database connection info */
 	'db' => array(
 		'hostname' => 'localhost',
 		'username' => 'root',
@@ -8,7 +9,125 @@ $config = array(
 		'name' => 'karbil_db'
 	),
 
-	'month_ru' => array(
+	/* other info such as contacts, links etc */
+	'other' => array(
+		'phone' => '(7212)37-11-02',
+		'email' => 'kktl@mail.ru',
+		'youtube' => 'https://www.youtube.com/channel/UCsO1yAKQjPL74NAR-8BoAUg',
+		'telegram' => 'https://t.me/karbil1',
+		'twitter' => 'https://twitter.com/karbilimschool',
+		'instagram' => 'https://instagram.com/bil.karagandy?igshid=16wwqltcneo7v'
+	),
+
+	/* kazakh language written in cyrillic alphabet */
+	'cyrl' => array(
+		/* categories */
+		'without_category' => 'Санатсыз',
+		'highest' => 'Жоғары',
+		'teacher-researcher' => 'Педагог-зерттеуші',
+		'teacher-expert' => 'Педагог-сарапшы',
+		'teacher-moderator' => 'Педагог-модератор',
+		'teacher-master' => 'Педагог-мастер',
+
+		/* competition levels */
+		'international' => 'Халықаралық',
+		'republican' => 'Республикалық',
+		'regional' => 'Аймақтық',
+
+		/* reward names */
+		'first_degree_diploma' => 'Бірінші дәрежелі диплом',
+		'second_degree_diploma' => 'Екінші дәрежелі диплом',
+		'third_degree_diploma' => 'Үшінші дәрежелі диплом',
+		'certificate_of_participation' => 'Қатысқаны туралы сертификат',
+
+		/* teacher positions */
+		'director' => 'Директор',
+		'deputy_director' => 'Директордың орынбасары',
+		'dormitory_manager' => 'Интернат меңгерушісі',
+
+		/* month names */
+		'January' => 'Қаңтар',
+		'February' => 'Ақпан',
+		'March' => 'Наурыз',
+		'April' => 'Сәуiр',
+		'May' => 'Мамыр',
+		'June' => 'Маусым',
+		'July' => 'Шiлде',
+		'August' => 'Тамыз',
+		'September' => 'Қыркүйек',
+		'October' => 'Қазан',
+		'November' => 'Қараша',
+		'December' => 'Желтоқсан'
+	),
+
+	/* kazakh language written in latin alphabet */
+	'latn' => array(
+		/* categories */
+		'without_category' => 'Sanatsyz',
+		'highest' => 'Joǵary',
+		'teacher-researcher' => 'Педагог-зерттеуші',
+		'teacher-expert' => 'Pedagog-zertteýshі',
+		'teacher-moderator' => 'Pedagog-moderator',
+		'teacher-master' => 'Pedagog-master',
+
+		/* competition levels */
+		'international' => 'Halyqaralyq',
+		'republican' => 'Respýblıkalyq',
+		'regional' => 'Aımaqtyq',
+
+		/* reward names */
+		'first_degree_diploma' => 'Bіrіnshі dárejelі dıplom',
+		'second_degree_diploma' => 'Ekіnshі dárejelі dıplom',
+		'third_degree_diploma' => 'Úshіnshі dárejelі dıplom',
+		'certificate_of_participation' => 'Qatysqany týraly sertıfıkat',
+
+		/* teacher positions */
+		'director' => 'Dırektor',
+		'deputy_director' => 'Dırektordyń orynbasary',
+		'dormitory_manager' => 'Internat meńgerýshіsі',
+
+		/* month names */
+		'January' => 'Qańtar',
+		'February' => 'Aqpan',
+		'March' => 'Naýryz',
+		'April' => 'Sáýir',
+		'May' => 'Mamyr',
+		'June' => 'Maýsym',
+		'July' => 'Shilde',
+		'August' => 'Tamyz',
+		'September' => 'Qyrkúıek',
+		'October' => 'Qazan',
+		'November' => 'Qarasha',
+		'December' => 'Jeltoqsan'
+	),
+
+	/* russian language */
+	'ru' => array(
+		/* categories */
+		'without_category' => 'Без категории',
+		'highest' => 'Высшая',
+		'teacher-researcher' => 'Педагог-исследователь',
+		'teacher-expert' => 'Педагог-эксперт',
+		'teacher-moderator' => 'Педагог-модератор',
+		'teacher-master' => 'Педагог-мастер',
+
+		/* competition levels */
+		'international' => 'Международный',
+		'republican' => 'Республиканский',
+		'regional' => 'Областной',
+
+		/* reward names */
+		'first_degree_diploma' => 'Диплом первой степени',
+		'second_degree_diploma' => 'Диплом второй степени',
+		'third_degree_diploma' => 'Диплом третьей степени',
+		'certificate_of_participation' => 'Сертификат за участие',
+
+		/* teacher positions */
+		'director' => 'Директор',
+		'deputy_director' => 'Заместитель директора',
+		'dormitory_manager' => 'Заведующий интернатом',
+
+		/* month names */
 		'January' => 'Январь',
 		'February' => 'Февраль',
 		'March' => 'Март',
@@ -20,19 +139,8 @@ $config = array(
 		'September' => 'Сентябрь',
 		'October' => 'Октябрь',
 		'November' => 'Ноябрь',
-		'December' => 'Декабрь'
-	),
+		'December' => 'Декабрь',
 
-	'other' => array(
-		'phone' => '(7212)37-11-02',
-		'email' => 'kktl@mail.ru',
-		'youtube' => 'https://www.youtube.com/channel/UCsO1yAKQjPL74NAR-8BoAUg',
-		'telegram' => 'https://t.me/karbil1',
-		'twitter' => 'https://twitter.com/karbilimschool',
-		'instagram' => 'https://instagram.com/bil.karagandy?igshid=16wwqltcneo7v'
-	),
-
-	'ru' => array(
 		/* index page */
 		'index_title' => 'БИЛ',
 
@@ -133,7 +241,47 @@ $config = array(
 		'footer_item_header' => 'Мы в соц.сетях',
 		'footer_footer' => '"Білім-инновация" лицей-интернат'
 	),
+
+	/* english language */
 	'en' => array(
+		/* categories */
+		'without_category' => 'Without category',
+		'highest' => 'Highest',
+		'teacher-researcher' => 'Teacher-researcher',
+		'teacher-expert' => 'Teacher-expert',
+		'teacher-moderator' => 'Teacher-moderator',
+		'teacher-master' => 'Teacher-master',
+
+		/* competition levels */
+		'international' => 'International',
+		'republican' => 'Republican',
+		'regional' => 'Regional',
+
+		/* reward names */
+		'first_degree_diploma' => 'First degree diploma',
+		'second_degree_diploma' => 'Second degree diploma',
+		'third_degree_diploma' => 'Third degree diploma',
+		'certificate_of_participation' => 'Certificate of participation',
+
+		/* teacher positions */
+		'director' => 'Director',
+		'deputy_director' => 'Deputy Director',
+		'dormitory_manager' => 'Dormitory manager',
+
+		/* month names */
+		'January' => 'January',
+		'February' => 'February',
+		'March' => 'March',
+		'April' => 'April',
+		'May' => 'May',
+		'June' => 'June',
+		'July' => 'July',
+		'August' => 'August',
+		'September' => 'September',
+		'October' => 'October',
+		'November' => 'November',
+		'December' => 'December',
+
 		/* index page */
 		'index_title' => 'BIL',
 
@@ -179,10 +327,12 @@ $config = array(
 		/* admission page */
 		'admission_head_subtitle' => 'Do you want to study here?',
 		'admission_head_title' => 'Admission',
+
 		/* 3 admission stages (with photos)*/
 		'admission_item_element_text_1' => '1.Documents',
 		'admission_item_element_text_2' => '2.Competition',
 		'admission_item_element_text_3' => '3.Study',
+
 		/* documents */
 		'documents_head_title' => '01.Documents',
 		'documents_item_title_1' => 'I stage',
@@ -229,10 +379,12 @@ $config = array(
 		'footer_footer' => '"Bilim-innovation" boarding school'
 	)
 );
+
 /* connecting to database and language script */
 require "db.php";
 require "language.php";
 
+/* use instead of header */
 function GoToNow ($url){
     echo '<script language="javascript">window.location.href ="'.$url.'"</script>';
 }

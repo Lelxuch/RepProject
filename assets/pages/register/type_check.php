@@ -7,15 +7,15 @@
 </head>
 <body>
     <?php
-    echo "Происходит переадресация. Пожалуйста подождите";
-    if (isset($_POST['submit_reg_type'])) {
-        switch ($_POST['reg_type']) {
+    echo "Please wait ...";
+    if (isset($_GET['submit_reg_type'])) {
+        switch ($_GET['reg_type']) {
             case 'teacher':
-                GoToNow("step2.php");
+                GoToNow("teacher_reg.php");
                 break;
             
             case 'student':
-                GoToNow("");
+                GoToNow("student_reg.php");
                 break;
         }
     }

@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="register">
-        <form action="type_check.php" method="post">
+        <form action="type_check.php" method="get">
             <div class="reg_type">
                 <label class="reg_teacher" for="radio_teacher">
                     <div class="checkbox">
