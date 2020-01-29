@@ -9,35 +9,34 @@
 </head>
 <body>
     <div class="register">
-        <form action="register.php">
-            <div class="reg_type">
-                <label class="reg_teacher" for="radio_teacher">
-                    <div class="checkbox">
-                        <input class="radio" id="radio_teacher" type="radio" name="radio_type" value="teacher">
-                    </div>
-                    <div class="reg_teacher_content">
-                        <div for="radio_teacher">
-                            <img class="reg_img" src="../../images/filler/filler1.png">
-                        </div>
-                        <div class="reg_text" for="radio_teacher">Я учитель</div>
-                    </div>
-                </label>
-                <label class="reg_student">
-                    <div class="checkbox">
-                        <input class="radio" id="radio_student"type="radio" name="radio_type" value="student">
-                    </div>
-                    <div class="reg_student_content">
-                        <div for="radio_student">
-                            <img class="reg_img" src="../../images/filler/filler1.png">
-                        </div>
-                        <div class="reg_text" for="radio_student">Я ученик</div>
-                    </div>
-                </label>
+        <div class="container">
+            <div class="content">
+                <div class="block">
+                    <div class="header">Тип пользователя</div>
+                    <form class="list" action="register.php">
+                        <input id="teacher_radio" class="radio" type="radio" name="radio_btn" value="teacher">
+                        <label for="teacher_radio" class="teacher_block">
+                            <div class="condition">
+                                <div class="teacher_cond"></div>
+                            </div>
+                            <div class="teacher_img"></div>
+                            <div class="text">Учитель</div>
+                        </label>
+                        <input id="student_radio" class="radio" type="radio" name="radio_btn" value="student">
+                        <label for="student_radio" class="student_block">
+                            <div class="condition">
+                                <div class="student_cond"></div>
+                            </div>
+                            <div class="student_img"></div>
+                            <div class="text">Ученик</div>
+                        </label>
+                    </form>
+                    <form class="continue" action="register.php">
+                        <button class="continue_btn" type="submit">Продолжить</button>
+                    </form>
+                </div>
             </div>
-        </form>
-        <form class="continue" action="register.php">
-            <button type="submit" class="continue_btn"></button>
-        </form>
+        </div>
     </div>
 </body>
 </html>
