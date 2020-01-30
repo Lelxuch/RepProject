@@ -10,32 +10,34 @@
     <div class="register">
         <div class="container">
             <div class="content">
-                <div class="block">
-                    <div class="header">Регистрация учителя</div>
-                    <form class="list" action="register.php">
-                        <div class="subtitle">
-                            <img class="sub_img" src="../../images/register/step1.png">
-                            <div class="sub_text">
-                                Личные данные
+                <form>
+                    <div class="block">
+                        <div class="header">Регистрация учителя</div>
+                        <div class="list" action="register.php">
+                            <div class="subtitle">
+                                <img class="sub_img" src="../../images/register/step1.png">
+                                <div class="sub_text">
+                                    Личные данные
+                                </div>
                             </div>
-                        </div>
-                        <div class="data">
+                            <div class="data">
 
-                        </div>
-                        <div class="subtitle">
-                            <img class="sub_img" src="../../images/register/step2.png">
-                            <div class="sub_text">
-                                Профессианальные данные
+                            </div>
+                            <div class="subtitle">
+                                <img class="sub_img" src="../../images/register/step2.png">
+                                <div class="sub_text">
+                                    Профессианальные данные
+                                </div>
+                            </div>
+                            <div class="data">
+                            
                             </div>
                         </div>
-                        <div class="data">
-                        
+                        <div class="reg" action="register.php">
+                            <button class="reg_btn" type="submit">Зарегистрироваться</button>
                         </div>
-                    </form>
-                    <form class="reg" action="register.php">
-                        <button class="reg_btn" type="submit">Зарегистрироваться</button>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
