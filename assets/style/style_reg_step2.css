@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6{
     justify-content: space-between;
 
     width: 100%;
-    height: 1000px;
+    height: 100%;
 
     background: #504f93;
 	border: 3px solid #4dc2cb;	
@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6{
     border-bottom: 2px solid #4dc2cb;
 
     font-size: 35px;
+    color: #6cdbe4;
 }
 
 .list{
@@ -107,14 +108,295 @@ h1, h2, h3, h4, h5, h6{
 
 	padding-right: 25px;
 
-	font-size: 25px;
+    font-size: 30px;
+    font-weight: 700;
+
+    color: #6cdbe4;
+}
+
+
+/* Data inputs */
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+/* Name */
+.name_title{
+    font-size: 24px;
+    
+    padding-bottom: 10px;
+}
+
+.name_subtitle{
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.name_item{
+    padding-left: 40px;
+}
+
+/* Name inputs */
+.name_input{
+    display: flex;
+
+    font-size: 20px;
+
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.name_inputs_label{
+    display: flex;
+    flex-direction: column;
+}
+
+.name_input_inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 10px;
+}
+
+.name_input_inputs input{
+    margin-top: 8px;
+    width: 200px;
+}
+
+/* Date */
+.date_b{
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.date_title{
+    font-size: 24px;
+}
+
+.date_item{
+    padding-left: 20px;
+    padding-top: 4px;
+}
+
+/* Gender */
+.gender{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.gender_title{
+    font-size: 24px;
+}
+
+.gender_item{
+    padding-left: 40px;
+
+    font-size: 20px; 
+}
+
+/* Career data */
+.career_title{
+    font-size: 24px;
+
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.career_item{
+    padding-left: 40px;
+
+    font-size: 20px; 
+}
+
+/* BIL Career */
+.bil_career_title{
+    font-size: 24px;   
+
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.bil_career_item{
+    font-size: 20px;
+    
+    padding-left: 40px;
+}
+
+/* Subject */
+.subject_title{
+    font-size: 24px;
+    
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.subject_item{
+    font-size: 20px;
+
+    padding-left: 40px;
+}
+
+/* Category */
+.category_title{
+    font-size: 24px;
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.category_item{
+    font-size: 20px;
+    
+    padding-left: 40px;
+}
+
+/* Position */
+.position_title{
+    font-size: 24px;
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.position_item{
+    font-size: 20px;
+
+    padding-left: 40px;
+}
+
+/* CLass */
+.class_title{
+    font-size: 24px;
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.class_item{
+    font-size: 20px;
+
+    padding-left: 40px;
+}
+
+/* Security */
+/* email */
+.email_title{
+    font-size: 24px;
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.email_item{
+    font-size: 20px;
+
+    padding-left: 40px;
+}
+
+.email_item input{
+    width: 200px;
+}
+
+/* Phone */
+.phone_title{
+    font-size: 24px;
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.phone_item{
+    font-size: 20px;
+
+    padding-left: 40px;
+}
+
+.phone_item input{
+    margin-left: 5px;
+}
+
+/* Login */
+.login_title{
+    font-size: 24px;
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.login_hint{
+    color: #ababab;
+    font-size: 18px;
+    font-style: italic;
+
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+
+.login_item{
+    font-size: 20px;
+
+    padding-left: 40px;
+}
+
+.login_item input{
+    margin-left: 5px;
+    width: 150px;
+}
+
+/* Password */
+.password_title{
+    font-size: 24px;
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.password_item{
+    font-size: 20px;
+
+    padding-left: 40px;
+}
+
+.password_hint{
+    color: #ababab;
+    font-size: 18px;
+    font-style: italic;
+
+    margin-left: 5px;
+    margin-bottom: 1px;
+}   
+
+.password_input{
+    display: flex;
+}
+
+.password_input_label{
+    display: flex;
+    flex-direction: column;
+}
+
+.password_input_inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.password_input input{
+    margin-top: 6px;
+    margin-left: 5px;
+
+    width: 170px;
 }
 
 /* Register btn */
-.reg{
-
-}
-
 .reg_btn{
     height: 80px;
     width: 100%;
@@ -124,10 +406,12 @@ h1, h2, h3, h4, h5, h6{
 
     background: #504f93;
 
-    color: #fff;
+    color: #6cdbe4;
     font-size: 32px;
 
     transition: color 0.2s;
+
+    margin-top: 100px;
 }
 
 .reg_btn:hover{

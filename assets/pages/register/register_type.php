@@ -11,7 +11,7 @@
     <div class="register">
         <div class="container">
             <div class="content">
-                <form action="register_type.php">
+                <form action="type_check.php">
                     <div class="block">
                         <div class="header">Тип пользователя</div>
                         <div class="list">

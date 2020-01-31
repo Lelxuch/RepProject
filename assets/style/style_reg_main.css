@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6{
     border-bottom: 2px solid #4dc2cb;
 
     font-size: 35px;
+    color: #6cdbe4;
 }
 
 /* List */
@@ -142,9 +143,17 @@ h1, h2, h3, h4, h5, h6{
     background-size: cover;
 }
 
+#teacher_radio:checked + label .teacher_img{
+    transform: scale(1.1);
+}
+
 #student_radio:checked + label .student_cond{
     background: url("../images/register/cond_green.png") no-repeat center;
     background-size: cover;
+}
+
+#student_radio:checked + label .student_img{
+    transform: scale(1.1);
 }
 
 /* T and S img */
@@ -154,6 +163,8 @@ h1, h2, h3, h4, h5, h6{
 
     background: url("../images/register/teacher.png") no-repeat center;
     background-size: cover;
+
+    transition: ease 0.2s;
 }
 
 .student_img{
@@ -162,6 +173,8 @@ h1, h2, h3, h4, h5, h6{
 
     background: url("../images/register/student.png") no-repeat center;
     background-size: cover;
+    
+    transition: ease 0.2s;
 }
 
 /* T and S text */
@@ -185,7 +198,7 @@ h1, h2, h3, h4, h5, h6{
 
     background: #504f93;
 
-    color: #fff;
+    color: #6cdbe4;
     font-size: 32px;
 
     transition: color 0.2s;

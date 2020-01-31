@@ -11,7 +11,7 @@
     if (isset($_GET['submit_reg_type'])) {
         switch ($_GET['reg_type']) {
             case 'teacher':
-                GoToNow("teacher_reg.php");
+                GoToNow("register_teacher.php");
                 break;
             
             case 'student':
