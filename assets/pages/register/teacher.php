@@ -23,9 +23,9 @@
                             </div>
                             <div class="data">
                                 <div class="name">
-                                    <div class="name_title">ФИО</div>
+                                    <div class="name_title">ФИО по документам</div>
                                     <div class="name_item">
-                                        <div class="name_subtitle">1.По документам</div>
+                                        <div class="name_subtitle"></div>
                                         <div class="name_input">
                                             <div class="name_inputs_label">
                                                 <label>Фамилия:</label>
@@ -39,7 +39,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="name_item">
+                                    <!--<div class="name_item">
                                         <div class="name_subtitle">2.На латинице</div>
                                         <div class="name_input">
                                             <div class="name_inputs_label">
@@ -68,7 +68,7 @@
                                                 <input type="text" name="mn_en" placeholder="Отчество" required>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                                 <div class="date_b">
                                     <div class="date_title">Дата рождения</div>
@@ -128,7 +128,7 @@
                             <div class="subtitle">
                                 <img class="sub_img" src="../../images/register/step2.png">
                                 <div class="sub_text">
-                                    Профессианальные данные
+                                    Профессиональные данные
                                 </div>
                             </div>
                             <div class="data">

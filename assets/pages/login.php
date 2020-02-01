@@ -42,11 +42,11 @@
 					<div class="block">
 						<div class="header">Вход</div>
 						<div class="type">
-							<label for="select_type">Выберите тип пользователя</label>
+							<!--<label for="select_type">Выберите тип пользователя</label>
 							<select name="sel_type" id="select_type">
 								<option value="teacher">Я ученик</option>
 								<option value="student">Я учитель</option>
-							</select>
+							</select>-->
 						</div>
 						<div class="data">
 							<input class="log_input" type="text" placeholder="Логин">
@@ -54,7 +54,7 @@
 						</div>
 						<div class="reg_pass">
 							<a class="reg_pass_link" href="">Забыли пароль?</a>
-							<a class="reg_pass_link" href="register/register_type.php">Зарегистрируйтесь</a>
+							<a class="reg_pass_link" href="register/main.html">Зарегистрируйтесь</a>
 						</div>
 						<div class="in">
 							<button class="login_btn" type="submit" name="login_btn">Войти</button>
