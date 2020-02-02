@@ -13,7 +13,7 @@
     <div class="register">
         <div class="container">
             <div class="content">
-                <form>
+                <form action="teacher.php">
                     <div class="block">
                         <div class="header">Регистрация учителя</div>
                         <div class="list" action="register.php">
