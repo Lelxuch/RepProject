@@ -11,10 +11,10 @@
 
 <body>
 	<!-- LANGUAGE SWITCHER -->
-	<a href="index.php?lang=ru">Русский</a>
-	<a href="index.php?lang=en">Английский</a>
-	<a href="index.php?lang=kz">Казахский</a>
-	<a href="index.php?lang=latn">Латиница</a>
+	<a href="index.php?lang=ru"><?php echo $lang['rus']; ?></a>
+	<a href="index.php?lang=en"><?php echo $lang['eng']; ?></a>
+	<a href="index.php?lang=kz"><?php echo $lang['kaz']; ?></a>
+	<a href="index.php?lang=latn"><?php echo $lang['latn']; ?></a>
 	<!-- NAVBAR -->
 	<header class="header">
 		<div class="header_line">

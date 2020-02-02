@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../style/style_blog.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Jomolhari|Roboto|Kaushan+Script|Montserrat|Open+Sans&display=swap" rel="stylesheet">
     <meta charset="utf-8">
-    <title>Блог</title>
+    <title><?php echo $lang['event_title']; ?></title>
 </head>
 <body>
 		<?php

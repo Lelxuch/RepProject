@@ -133,6 +133,41 @@
 		'footer_item_header_2' => 'Location',
 		'footer_map_content' => 'Karagandy, Aktubinskaya 1A.',
 		'footer_item_header' => 'Our social media',
-		'footer_footer' => '"Bilim-innovation" boarding school'
+		'footer_footer' => '"Bilim-innovation" boarding school',
+
+		/* language switcher */
+		'rus' => 'Russian',
+		'eng' => 'English',
+		'kaz' => 'Kazakh',
+		'latn' => 'Latin',
+
+		/* table page */
+		'table_title' => 'Archive of achievements',
+		'table_column1' => 'Title',
+		'table_column2' => 'Year',
+		'table_column3' => 'Level',
+		'table_column4' => 'Name',
+		'table_column5' => 'Medal',
+		'table_column6' => 'Subject',
+		'table_column7' => 'Class',
+		'table_column8' => 'Location',
+
+		/* login.php */
+		'login_title' => 'Login',
+		'login_pass_recovery' => 'Forgot password?',
+		'login_signup' => 'Sign up',
+		'login_enter' => 'Login',
+		'login_ph_login' => 'Login',
+		'login_ph_pass' => 'Password',
+
+		/* event.php */
+		'event_title' => 'Blog',
+
+		/* main.php */
+		'main_title' => 'Registration',
+		'main_type' => 'User type',
+		'main_teacher' => 'Teacher',
+		'main_student' => 'Student',
+		'main_continue' => 'Continue'
 	)
 ?>

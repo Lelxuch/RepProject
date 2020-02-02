@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="../style/style_login.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Jomolhari|Roboto|Kaushan+Script|Montserrat|Open+Sans&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
-	<title>Вход</title>
+	<title><?php echo $lang['login_title']; ?></title>
 </head>
 <body>
 	<div class="back">
@@ -40,7 +40,7 @@
 			<div class="content">
 				<form action="login.php">
 					<div class="block">
-						<div class="header">Вход</div>
+						<div class="header"><?php echo $lang['login_title']; ?></div>
 						<div class="type">
 							<!--<label for="select_type">Выберите тип пользователя</label>
 							<select name="sel_type" id="select_type">
@@ -49,15 +49,15 @@
 							</select>-->
 						</div>
 						<div class="data">
-							<input class="log_input" type="text" placeholder="Логин">
-							<input class="pass_input"type="password" placeholder="Пароль">
+							<input class="log_input" type="text" placeholder="<?php echo $lang['login_ph_login']; ?>">
+							<input class="pass_input" type="password" placeholder="<?php echo $lang['login_ph_pass']; ?>">
 						</div>
 						<div class="reg_pass">
-							<a class="reg_pass_link" href="">Забыли пароль?</a>
-							<a class="reg_pass_link" href="register/main.html">Зарегистрируйтесь</a>
+							<a class="reg_pass_link" href=""><?php echo $lang['login_pass_recovery']; ?></a>
+							<a class="reg_pass_link" href="register/main.php"><?php echo $lang['login_signup']; ?></a>
 						</div>
 						<div class="in">
-							<button class="login_btn" type="submit" name="login_btn">Войти</button>
+							<button class="login_btn" type="submit" name="login_btn"><?php echo $lang['login_enter'] ?></button>
 						</div>
 					</div>
 				</form>

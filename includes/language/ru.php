@@ -39,7 +39,8 @@
 		'November' => 'Ноябрь',
 		'December' => 'Декабрь',
 
-		/* index page */
+		/* index.php */
+		/* index title */
 		'index_title' => 'БИЛ',
 
 		/* menu buttons */
@@ -137,6 +138,43 @@
 		'footer_item_header_2' => 'Местоположение',
 		'footer_map_content' => 'г.Караганда, Актюбинская 1А.',
 		'footer_item_header' => 'Мы в соц.сетях',
-		'footer_footer' => '"Білім-инновация" лицей-интернат'
+		'footer_footer' => '"Білім-инновация" лицей-интернат',
+
+		/* language switcher */
+		'rus' => 'Русский',
+		'eng' => 'Английский',
+		'kaz' => 'Казахский',
+		'latn' => 'Латиница',
+
+		/* END index.php */
+
+		/* table.php */
+		'table_title' => 'Архив достижений',
+		'table_column1' => 'Название',
+		'table_column2' => 'Год',
+		'table_column3' => 'Масштаб',
+		'table_column4' => 'Имя',
+		'table_column5' => 'Медаль',
+		'table_column6' => 'Предмет',
+		'table_column7' => 'Предмет',
+		'table_column8' => 'Место проведения',
+
+		/* login.php */
+		'login_title' => 'Вход',
+		'login_pass_recovery' => 'Забыли пароль?',
+		'login_signup' => 'Зарегистрируйтесь',
+		'login_enter' => 'Войти',
+		'login_ph_login' => 'Логин',
+		'login_ph_pass' => 'Пароль',
+
+		/* event.php */
+		'event_title' => 'Блог',
+
+		/* main.php */
+		'main_title' => 'Регистрация',
+		'main_type' => 'Тип пользователя',
+		'main_teacher' => 'Учитель',
+		'main_student' => 'Ученик',
+		'main_continue' => 'Продолжить'
 	)
 ?>
