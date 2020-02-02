@@ -43,19 +43,19 @@
 		'index_title' => 'БИЛ',
 
 		/* menu buttons */
-		'header_about' => 'О нас',
+		'header_about' => 'Біз туралы',
 		'header_advantage' => 'Преимущества',
-		'header_admission' => 'Поступающим',
-		'header_rating' => 'Наша гордость',
+		'header_admission' => 'Түсушілерге',
+		'header_rating' => 'Бізің мақтанышымыз',
 		'header_event' => 'Ближайшие события',
 		'header_blog' => 'Блог',
 
 		/* intro page */
 		'intro_title' => '"Білім-инновация" лицей',
-		'intro_btn' => 'Узнать больше',
+		'intro_btn' => 'Көбірек біліңіз',
 
 		/* about page */
-		'about_head_title' => 'О нас',
+		'about_head_title' => 'Біз туралы',
 		'about_title' => 'Лицей-интернат "Білім-инновация" №1',
 		'about_text' => 'Впервые в Казахстане "Казахско-турецкие" лицеи открылись в 1992 году,
 		решением президентов двух стран, Казахстана и Турции, в городах
@@ -66,76 +66,76 @@
 		'advantage_head_subtitle' => 'Чем мы отличаемся',
 		'advantage_head_title' => 'Преимущества',
 		/* 1 advantage */
-		'advantage_post_title_1' => 'Учителя',
+		'advantage_post_title_1' => 'Мұғалімдер',
 		'advantage_post_text_1' => 'Наши ученики получают знание только от высококвалифицированных учителей.',
 		/* 2 advantage */
 		'advantage_post_title_2' => 'Выпускники',
 		'advantage_post_text_2' => 'Выпускники нашего лицея учатся в топовых университетах не только в нашей
 		стране, но и за границей.',
 		/* 3 advantage */
-		'advantage_post_title_3' => 'Воспитание',
+		'advantage_post_title_3' => 'Тәрбие',
 		'advantage_post_text_3' => 'Обучение и  воспитание стоят на одном уровне.В этом заслуга наших учителей и воспитателей.',
 		/* 4 advantage */
-		'advantage_post_title_4' => 'Обучение на разных языках',
+		'advantage_post_title_4' => 'Көп тілде білім беру',
 		'advantage_post_text_4' => 'В лицее - обучение   предметов естественно-математического направления на
 		английском языке.',
 		/* 5 advantage */
-		'advantage_post_title_5' => 'Награды',
+		'advantage_post_title_5' => 'Жетістіктер',
 		'advantage_post_text_5' => 'Многие ученики нашего лицея призеры олимпиад разного уровня.',
 		/* 6 advantage */
-		'advantage_post_title_6' => 'Общежитие',
+		'advantage_post_title_6' => 'Жатақхана',
 		'advantage_post_text_6' => 'Также у нас все учащиеся проживают в общежитии. Проживание в нем
 		является обязательным.',
 
 		/* admission page */
-		'admission_head_subtitle' => 'Хотите здесь учиться?',
-		'admission_head_title' => 'Поступление',
+		'admission_head_subtitle' => 'Бұл жерде оқығыныз келе ме?',
+		'admission_head_title' => 'Оқуға түсу',
 		/* 3 admission stages (with photos)*/
-		'admission_item_element_text_1' => '1.Документы',
+		'admission_item_element_text_1' => '1.Құжаттар',
 		'admission_item_element_text_2' => '2.Конкурс',
-		'admission_item_element_text_3' => '3.Учеба',
+		'admission_item_element_text_3' => '3.Оқу',
 		/* documents */
-		'documents_head_title' => '01.Документы',
-		'documents_item_title_1' => 'I этап',
-		'documents_item_inner_1' => 'Заявление на участие в конкурсе',
-		'documents_item_inner_2' => 'Свидетельство о рождении, ИИН',
-		'documents_item_inner_3' => 'Фото 3х4 (2шт.)',
-		'documents_item_title_2' => 'II этап',
-		'documents_item_inner_11' => 'Справка с места учебы',
+		'documents_head_title' => '01.Құжаттар',
+		'documents_item_title_1' => 'I кезең',
+		'documents_item_inner_1' => 'Конкурсқа қатысу үшін өтініш',
+		'documents_item_inner_2' => 'Туу туралы куәлік, ЖИН',
+		'documents_item_inner_3' => 'Фото 3х4 (2 дана)',
+		'documents_item_title_2' => 'II кезең',
+		'documents_item_inner_11' => 'Оқу орнынан анықтама',
 		'competition_head_title' => '02.Конкурс',
-		'competition_item_title' => 'I этап',
-		'competition_inner_title' => 'Задания первого тура состоят из 75 вопросов.',
-		'competition_inner_title_1' => 'Математика и логика – 40 вопросов',
-		'competition_inner_title_2' => 'Казахский язык – 10 вопросов',
-		'competition_inner_title_3' => 'История Казахстана – 10 вопросов',
-		'competition_item_title_2' => 'II этап',
-		'competition_inner_title_22' => 'Задания второго тура состоят из 75 вопросов.',
-		'competition_inner_title_31' => 'Математика и логика – 55 вопросов',
-		'competition_inner_title_32' => 'Казахский язык – 10 вопросов',
-		'competition_inner_title_33' => 'История Казахстана – 10 вопросов',
+		'competition_item_title' => 'I кезең',
+		'competition_inner_title' => 'Бірінші кезең 60 сұрақтан тұрады.',
+		'competition_inner_title_1' => 'Математика мен логика – 40 сұрақ',
+		'competition_inner_title_2' => 'Қазақ тілі – 10 сұрақ',
+		'competition_inner_title_3' => 'Қазақстан тарихы – 10 сұрақ',
+		'competition_item_title_2' => 'II кезең',
+		'competition_inner_title_22' => 'Бірінші кезең 75 сұрақтан тұрады.',
+		'competition_inner_title_31' => 'Математика и логика – 55 сұрақ',
+		'competition_inner_title_32' => 'Қазақ тілі – 10 сұрақ',
+		'competition_inner_title_33' => 'Қазақстан тарихы – 10 сұрақ',
 
 		/* map */
-		'map_link' => 'Открыть карту',
+		'map_link' => 'Картаны ашу',
 
 		/* rating will be added soon */
 		'rating_head_subtitle' => 'Лучшие из лучших',
-		'rating_head_title' => 'Наши ученики',
-		'rating_header_archive_btn' => 'Архив достижений',
+		'rating_head_title' => 'Біздің оқушылар',
+		'rating_header_archive_btn' => 'Жетістіктер',
 
 		/* event page */
-		'event_head_subtitle' => 'Что намечается',
+		'event_head_subtitle' => 'Не болғалы жатыр',
 		'event_head_title' => 'Ближайшие события',
 		'event_button' => 'Узнать больше',
 
 		/* blog page */
-		'blog_head_subtitle' => 'Наши истории',
+		'blog_head_subtitle' => 'Біздің оқиғалар',
 		'blog_head_title' => 'Последние статьи',
 
 		/* footer */
 		'footer_logo_name' => 'БИЛ',
-		'footer_item_header_1' => 'Контакты',
-		'footer_item_header_2' => 'Местоположение',
-		'footer_map_content' => 'г.Караганда, Актюбинская 1А.',
+		'footer_item_header_1' => 'Байланыс мәліметтері',
+		'footer_item_header_2' => 'Орналасуы',
+		'footer_map_content' => 'Қараганды қ., Актюбинская 1А.',
 		'footer_item_header' => 'Мы в соц.сетях',
 		'footer_footer' => '"Білім-инновация" лицей-интернат',
 
@@ -146,21 +146,21 @@
 		'latn' => 'Латын',
 
 		/* table page */
-		'table_title' => 'Архив достижений',
-		'table_column1' => 'Название',
-		'table_column2' => 'Год',
+		'table_title' => 'Жетістіктер',
+		'table_column1' => 'Аты',
+		'table_column2' => 'Жылы',
 		'table_column3' => 'Масштаб',
-		'table_column4' => 'Имя',
+		'table_column4' => 'Қатысушуның аты-жөні',
 		'table_column5' => 'Медаль',
-		'table_column6' => 'Предмет',
-		'table_column7' => 'Предмет',
-		'table_column8' => 'Место проведения',
+		'table_column6' => 'Пән',
+		'table_column7' => 'Сыныбы',
+		'table_column8' => 'Өткізу орны',
 
 		/* login.php */
-		'login_title' => 'Вход',
-		'login_pass_recovery' => 'Забыли пароль?',
-		'login_signup' => 'Зарегистрируйтесь',
-		'login_enter' => 'Войти',
+		'login_title' => 'Кіру',
+		'login_pass_recovery' => 'Құпия сөзді ұмыттыныз ба?',
+		'login_signup' => 'Тіркелініз',
+		'login_enter' => 'Кірініз',
 		'login_ph_login' => 'Логин',
 		'login_ph_pass' => 'Пароль',
 
@@ -168,10 +168,10 @@
 		'event_title' => 'Блог',
 
 		/* main.php */
-		'main_title' => 'Регистрация',
-		'main_type' => 'Тип пользователя',
-		'main_teacher' => 'Учитель',
-		'main_student' => 'Ученик',
-		'main_continue' => 'Продолжить'
+		'main_title' => 'Тіркелу',
+		'main_type' => 'Пайдаланушының түрі',
+		'main_teacher' => 'Оқушы',
+		'main_student' => 'Мұғалім',
+		'main_continue' => 'Жалғастыру'
 	)
 ?>
