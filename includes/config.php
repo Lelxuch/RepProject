@@ -36,3 +36,4 @@ include "database.php";
 function GoToNow ($url){
     echo '<script language="javascript">window.location.href ="'.$url.'"</script>';
 }
+?>
