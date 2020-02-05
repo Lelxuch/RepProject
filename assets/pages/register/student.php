@@ -104,25 +104,25 @@
                         </div>
                         <div class="subtitle">
                             <img class="sub_img" src="../../images/register/step3.png">
-                            <div class="sub_text"><?php echo $lang['treg_security_data']; ?></div>
+                            <div class="sub_text"><?php echo $lang['reg_security_data']; ?></div>
                         </div>
                         <div class="data">
                             <div class="email">
                                 <div class="email_title"><?php echo $lang['reg_email_title']; ?></div>
                                 <div class="email_item">
-                                    <label>Email: <input type="email" name="email"></label>
+                                    <label>Email: <input type="email" name="email" placeholder="<?php echo $lang['reg_email_ph']; ?>" required></label>
                                 </div>
                             </div>
                             <div class="phone">
                                 <div class="phone_title"><?php echo $lang['reg_phone_title'] ?></div>
                                 <div class="phone_item">
-                                    <label><?php echo $lang['reg_phone']; ?><input type="text" name="phone"></label>
+                                    <label><?php echo $lang['reg_phone']; ?><input type="text" name="phone" pattern="[0-9]{10}" title="<?php echo $lang['reg_phone_hint']; ?>" minlength="10" maxlength="10" placeholder="<?php echo $lang['reg_phone_ph']; ?>" required></label>
                                 </div>
                             </div>
                             <div class="login">
                                 <div class="login_title"><?php echo $lang['reg_create_login']; ?><span class="login_hint">(<?php echo $lang['reg_login_main_hint']; ?>: A-Z, a-z, 0-9)</span></div>
                                 <div class="login_item">
-                                    <label><?php echo $lang['reg_login']; ?>:<input type="text" name="username"></label>
+                                    <label><?php echo $lang['reg_login']; ?>:<input type="text" name="username" title="<?php echo $lang['reg_login_hint']; ?>" minlength="6" maxlength="100" placeholder="<?php echo $lang['reg_login_ph']; ?>" required></label>
                                 </div>
                             </div>
                             <div class="password">
@@ -134,8 +134,8 @@
                                             <label class="repass"><?php echo $lang['reg_repeat_password']; ?>:</label>
                                         </div>
                                         <div class="password_input_inputs">
-                                            <input type="password" name="pass">
-                                            <input type="password" name="pass_conf">
+                                            <input type="password" name="pass" id ="pass" title="<?php echo $lang['reg_pass_hint']; ?>" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,32}$" minlength="8" maxlength="32" placeholder="<?php echo $lang['reg_pass_ph']; ?>" required>
+                                            <input type="password" name="pass_conf" id="pass_conf" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,32}$" minlength="8" maxlength="32" placeholder="<?php echo $lang['reg_pass_conf_ph']; ?>" required>
                                         </div>
                                     </div>
                                 </div>
@@ -149,5 +149,18 @@
             </div>
         </div>
     </div>
+    <script>
+        var password = document.getElementById("pass"), confirm_password = document.getElementById("pass_conf");
+        function validatePassword() {
+            if(password.value != confirm_password.value) {
+                confirm_password.setCustomValidity("Passwords Don't Match");
+            }
+            else {
+                confirm_password.setCustomValidity('');
+            }
+        }
+        password.onchange = validatePassword;
+        confirm_password.onkeyup = validatePassword;
+    </script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-require_once "../../../includes/database.php";
+require_once "../../../includes/config.php";
 
 if (isset($_POST['teacher_submit'])) {
 	/* personal data */
@@ -23,7 +23,33 @@ if (isset($_POST['teacher_submit'])) {
 	$phone = $_POST['phone'];
 	$login = $_POST['login'];
 	$password = $_POST['pass'];
-	/* filter */
+	/* check if user with these login and email exists */
+	$sql = "SELECT COUNT(*) FROM `security` WHERE `login`=" . $login . " AND `email`=" . $email;
+	$user_exists = mysqli_query($connection, $sql);
+	if ($user_exists){
+		echo "Пользователь с таким логином или почтой уже существует";
+		GoToNow("teacher.php");
+	}
+	else {
+		$sql = "INSERT INTO `security`(
+				    `login`,
+				    `password`,
+				    `phone`,
+				    `email`,
+				    `type`
+				)
+				VALUES(
+					'$login',
+					'$password',
+					'$phone',
+					'$email',
+					'teacher'
+				)";
+		if (mysqli_query($connection, $sql)) {
+			$securityID = mysql_insert_id($connection);
+			
+		}
+	}
 }
 if (isset($_POST['student_submit'])) {
 	/* personal data */
