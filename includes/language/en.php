@@ -136,7 +136,7 @@
 		'footer_footer' => '"Bilim-innovation" boarding school',
 
 		/* language switcher */
-		'rus' => 'Russian',
+		'rus' => 'en',
 		'eng' => 'English',
 		'kaz' => 'Kazakh',
 		'latn' => 'Latin',
@@ -168,54 +168,6 @@
 		'main_type' => 'User type',
 		'main_teacher' => 'Teacher',
 		'main_student' => 'Student',
-		'main_continue' => 'Continue',
-
-		/* teacher register */
-		'reg_login_hint' => 'English letters or digits. Minimum 6 characters',
-		'reg_pass_hint' => 'English letters (at least 1 uppercase and 1 lowercase) and digits (at least 1 digit). Length is between 8 and 32 characters',
-		'reg_phone' => '10 digits of mobile phone number. You do not need to enter "+7" at the beginning',
-		/* teacher registration main */
-		//'treg_title' => 'Регистрация',
-		'treg_header' => 'Registration of a teacher',
-		'reg_personal_data' => 'Personal data',
-		'reg_fio' => 'Full name',
-		'reg_lname' => 'Last name',
-		'reg_fname' => 'First name',
-		'reg_mname' => 'Middle name',
-		'reg_bday' => 'Date of birth',
-		'treg_gender' => 'Gender',
-		'treg_male' => 'Male',
-		'treg_female' => 'Female',
-		'treg_prof_data' => 'Professional data',
-		'treg_career_start_title' => 'When did you start your teacher career?',
-		'treg_karbil_start' => 'When did you start working at our school?',
-		'treg_subject' => 'What subject are you teaching?',
-		'treg_category' => 'Choose your category',
-		'treg_position' => 'Additional position at school',
-		'treg_position_none' => 'None',
-		'treg_class_teacher' => 'Class teacher',
-		'treg_none' => 'None',
-		'reg_security_data' => 'Security data',
-		'reg_email_title' => 'Enter email',
-		'reg_phone_title' => 'Enter phone number without spaces',
-		'reg_phone' => 'Phone number: +7',
-		'reg_create_login' => 'Create login',
-		'reg_login_main_hint' => 'Login must contain of',
-		'reg_login' => 'Login',
-		'reg_pass_title' => 'Create password',
-		'reg_pass_main_hint' => 'Password must contain of',
-		'reg_password' => 'Password',
-		'reg_repeat_password' => 'Repeat password',
-		'register' => 'Sign up',
-
-		/* student registration */
-		'sreg_header' => 'Registration of a student',
-		'sreg_study_title' => 'Study',
-		'sreg_grad_years' => 'Years of study at the KarBIL',
-		'sreg_years' => 'Years',
-		'sreg_choose_class' => 'Select your class',
-		'sreg_olympiad' => 'Your olympiad subject',
-		'sreg_olympiad_none' => 'I am not',
-		'sreg_club' => 'Select the clubs in which you participate'
+		'main_continue' => 'Continue'
 	)
 ?>

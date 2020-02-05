@@ -4,17 +4,21 @@
 
 <head>
 	<link rel="stylesheet" type="text/css" href="/assets/style/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Jomolhari|Roboto|Kaushan+Script|Montserrat|Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Jomolhari|Roboto|Kaushan+Script|Montserrat|Bebas+Neue|Open+Sans&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
 	<title><?php echo $lang['index_title']; ?></title>
 </head>
 
 <body>
 	<!-- LANGUAGE SWITCHER -->
-	<a href="index.php?lang=ru"><?php echo $lang['rus']; ?></a>
-	<a href="index.php?lang=en"><?php echo $lang['eng']; ?></a>
-	<a href="index.php?lang=kz"><?php echo $lang['kaz']; ?></a>
-	<a href="index.php?lang=latn"><?php echo $lang['latn']; ?></a>
+	<div class="lang">
+		<div class="lang_content">
+			<a class="lang_link" href="index.php?lang=ru"><?php echo $lang['rus']; ?></a>
+			<a class="lang_link" href="index.php?lang=en"><?php echo $lang['eng']; ?></a>
+			<a class="lang_link" href="index.php?lang=kz"><?php echo $lang['kaz']; ?></a>
+			<a class="lang_link" href="index.php?lang=latn"><?php echo $lang['latn']; ?></a>
+		</div>
+	</div>
 	<!-- NAVBAR -->
 	<header class="header">
 		<div class="header_line">
@@ -22,14 +26,16 @@
 				<div class="header_content">
 					<div class="header_logo"></div>
 					<nav class="nav">
-						<a class="nav_link" href="#" onclick="slowScroll('#about_link')"><?php echo $lang['header_about']; ?></a>
-						<a class="nav_link" href="#" onclick="slowScroll('#advantage_link')"><?php echo $lang['header_advantage']; ?></a>
-						<a class="nav_link" href="#" onclick="slowScroll('#admission_link')"><?php echo $lang['header_admission']; ?></a>
-						<a class="nav_link" href="assets/pages/hz/awards.php"><?php echo $lang['header_rating']; ?></a>
-						<a class="nav_link" href="#" onclick="slowScroll('#event_link')"><?php echo $lang['header_event']; ?></a>
-						<a class="nav_link" href="#" onclick="slowScroll('#blog_link')"><?php echo $lang['header_blog']; ?></a>
-						<a class="nav_link" href="assets/pages/login.php"><img class="user_img" src="../assets/images/header/header_user.png"></a>
-						<a class="nav_link" href="assets/pages/search/search.php"><img class="search_img" src="../assets/images/header/header_search.png"></a>
+						<div class="nav_content">
+							<a class="nav_link" href="#" onclick="slowScroll('#about_link')"><?php echo $lang['header_about']; ?></a>
+							<a class="nav_link" href="#" onclick="slowScroll('#advantage_link')"><?php echo $lang['header_advantage']; ?></a>
+							<a class="nav_link" href="#" onclick="slowScroll('#admission_link')"><?php echo $lang['header_admission']; ?></a>
+							<a class="nav_link" href="assets/pages/hz/awards.php"><?php echo $lang['header_rating']; ?></a>
+							<a class="nav_link" href="#" onclick="slowScroll('#event_link')"><?php echo $lang['header_event']; ?></a>
+							<a class="nav_link" href="#" onclick="slowScroll('#blog_link')"><?php echo $lang['header_blog']; ?></a>
+							<a class="nav_link" href="assets/pages/login.php"><img class="user_img" src="../assets/images/header/header_user.png"></a>
+							<a class="nav_link" href="assets/pages/search/search.php"><img class="search_img" src="../assets/images/header/header_search.png"></a>
+						</div>
 					</nav>
 				</div>
 			</div>
@@ -339,7 +345,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- RATING -->
+	<!--
 	<div class="rating" id="rating_link">
 		<div class="rating_all_header">
 			<div class="container">
@@ -426,7 +432,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!-- EVENT -->
 	<div class="event" id="event_link">
 		<div class="event_all_header">
