@@ -42,14 +42,14 @@
         </div>
     </div>
     <script>
-        function start_registration() {
-            if(document.getElementById('teacher_radio').checked) {
-                window.location.replace("teacher.php");
-            }
-            else if(document.getElementById('student_radio').checked) {
-                window.location.replace("student.php");
-            }
+    function start_registration() {
+        if(document.getElementById('teacher_radio').checked) {
+            window.location.replace("teacher.php");
         }
+        else if(document.getElementById('student_radio').checked) {
+            window.location.replace("student.php");
+        }
+    }
     </script>
 </body>
 </html>
