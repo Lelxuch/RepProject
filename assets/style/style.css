@@ -46,6 +46,19 @@ h1, h2, h3, h4, h5, h6{
 .lang_item:hover{
 	background: #fff;
 	color: #17a6ac;
+.lang_link{
+	text-decoration: none;
+	color: #fff;
+
+	margin: 0 5px;
+	padding: 3px;
+
+	border: 2px solid #ababab;
+}
+
+.lang_link:hover{
+	color: #17a6ac;
+	background: #fff;
 }
 
 /* Header */

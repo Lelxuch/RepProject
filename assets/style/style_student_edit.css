@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+
+	font-family: 'Roboto', sans-serif; /* ??????????????????? */
+	font-size: 15px;
+
+	line-height: 1.5;
+
+    color: #fff;
+}
+
+*,
+*after,
+before{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+	max-width: 800px;
+
+	margin: 0 auto;
+}
+
+/* Edit */
+.edit{
+    width: 100%;
+    height: 100vh;
+
+    background: url("../images/main_background/background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* Content */
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* title */
+.title{
+    font-size: 30px;
+    font-weight: 700;
+
+    text-align: center;
+
+    padding-top: 35px;
+}
+
+/* all inputs */
+input{
+    border-radius: 10px;
+}
+
+select{
+    border-radius: 10px;
+}
+
+/* Fiels */
+.field{
+    width: 100%;
+
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+    font-size: 25px;
+}
+
+/* Button */
+.btn{
+    font-size: 20px;
+    color: #5bb8bb;
+
+    padding: 10px 15px;
+
+    border-radius: 10px;
+	background: #fff;
+
+	transition: color 0.1s;
+}
+
+.btn:hover{
+	color: #fff;
+	background: #5bb8bb;
+}
+

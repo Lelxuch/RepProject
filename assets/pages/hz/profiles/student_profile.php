@@ -27,7 +27,7 @@
             <div class="profile_content">
                 <div class="profile_header">
                     <div class="profile_left">
-                        <img cLass="profile_photo" src="../../../images/filler/filler1.png" alt="Фото ученика">
+                        <img cLass="profile_photo" src="../../../images/user/user.jpg" alt="Фото ученика">
                     </div>
                     <div class="profile_right">
                         <div class="profile_name">Накып Санжар Жасуланулы</div>

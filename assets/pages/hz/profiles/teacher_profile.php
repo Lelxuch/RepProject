@@ -27,7 +27,7 @@
             <div class="profile_content">
                 <div class="profile_header">
                     <div class="profile_left">
-                        <img cLass="profile_photo" src="../../../images/filler/filler1.png" alt="Фото ученика">
+                        <img cLass="profile_photo" src="../../../images/user/user.jpg" alt="Фото ученика">
                     </div>
                     <div class="profile_right">
                         <div class="profile_name">Куаныш Нургазин</div>
@@ -50,7 +50,7 @@
                 <div class="students_list">
                     <div class="students_block">
                         <div class="students_item_p1">
-                            <a href="student_profile.php"><img class="students_item_img" src="../../../images/filler/filler1.png"></a>
+                            <a href="student_profile.php"><img class="students_item_img" src="../../../images/user/user.jpg"></a>
                         </div>
                         <div class="students_item_p2">
                             <div class="students_name">

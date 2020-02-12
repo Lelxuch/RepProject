@@ -26,6 +26,19 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0 auto;
 }
 
+/* Back */
+.back{
+    position: absolute;
+
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.back_img{
+    width: 70px;
+    height: 70px;
+}
+
 /* Search */
 .search{
     width: 100%;
@@ -192,6 +205,8 @@ h1, h2, h3, h4, h5, h6{
 	height: 100%;
 
 	background: #fff;
+
+	border-radius: 0px 	0px 20px 20px;
 }
 
 /* Blog */
@@ -201,6 +216,8 @@ h1, h2, h3, h4, h5, h6{
 	margin: 15px;
 
 	background: #417ac3;
+
+	border-radius: 10px;
 }
 
 .blog_item_p1{

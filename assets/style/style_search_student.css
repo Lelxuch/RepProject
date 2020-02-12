@@ -26,6 +26,19 @@ h1, h2, h3, h4, h5, h6{
 	margin: 0 auto;
 }
 
+/* Back */
+.back{
+    position: absolute;
+
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.back_img{
+    width: 70px;
+    height: 70px;
+}
+
 /* Header */
 .header{
 	width: 100%;
@@ -101,7 +114,6 @@ h1, h2, h3, h4, h5, h6{
 .nav_link:hover:after{
 	opacity: 1;
 }
-
 
 .user_img{
 	position: absolute;
@@ -285,14 +297,17 @@ h1, h2, h3, h4, h5, h6{
 	height: 100%;
 
 	background: #fff;
+
+	border-radius: 0px 	0px 20px 20px;
 }
 
 .students_block{
 	display: flex;
 	justify-content: flex-start;
 
-	background: url("../images/filler/lightdark_blue_filler.png") no-repeat center;
-    background-size: cover;
+	background: #417ac3;
+
+	border-radius: 10px;
 
 	margin: 15px;
 }

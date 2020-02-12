@@ -8,6 +8,7 @@
     <title><?php echo $lang['treg_header']; ?></title>
 </head>
 <body>
+    <a href="main.php" class="back"></a>
     <div class="register">
         <div class="container">
             <div class="content">

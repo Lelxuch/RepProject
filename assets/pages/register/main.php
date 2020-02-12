@@ -8,6 +8,9 @@
 	<title><?php echo $lang['main_title']; ?></title>
 </head>
 <body>
+    <a href="../login.php" class="back">
+        
+    </a>
     <div class="register">
         <div class="container">
             <div class="content">
