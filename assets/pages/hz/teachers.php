@@ -16,6 +16,7 @@
                         <a class="nav_link" href="awards.php">Достижения</a>
                         <a class="nav_link" href="students.php">Ученики</a>
                         <a class="nav_link_visited" href="">Учителя</a>
+                        <a class="nav_link" href="../../../index.php">Домой</a>
                         <a class="nav_link" href="../login.php" target="_blank"><img class="user_img" src="../../images/header/header_user.png"></a>
                         <a class="nav_link" href="../search/search.php" target="_blank"><img class="search_img" src="../../images/header/header_search.png"></a>
                     </nav>

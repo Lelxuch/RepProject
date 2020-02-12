@@ -11,12 +11,25 @@
 
 <body>
 	<!-- LANGUAGE SWITCHER -->
+	<!--
 	<div class="lang">
 		<div class="lang_content">
 			<a class="lang_link" href="index.php?lang=ru"><?php echo $lang['rus']; ?></a>
 			<a class="lang_link" href="index.php?lang=en"><?php echo $lang['eng']; ?></a>
 			<a class="lang_link" href="index.php?lang=kz"><?php echo $lang['kaz']; ?></a>
 			<a class="lang_link" href="index.php?lang=latn"><?php echo $lang['latn']; ?></a>
+		</div>
+	</div>
+	-->
+	<div class="lang">
+		<div class="lang_content">
+			<select class="minimenu" name="sel_lang" id="">
+				<option value="">язык</option>
+				<option value="index.php?lang=ru">ru</option>
+				<option value="index.php?lang=kz">kz</option>
+				<option value="index.php?lang=en">en</option>
+				<option value="index.php?lang=latn">latn</option>
+			</select>
 		</div>
 	</div>
 	<!-- NAVBAR -->
@@ -618,6 +631,9 @@
 			$('html, body').animate({
 				scrollTop: $(id).offset().top
 			}, 750);
+		}
+		document.querySelector(".minimenu").onchange = function(){
+  			location.assign(this.value);
 		}
 	</script>
 </body>

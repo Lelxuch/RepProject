@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../../style/style_reg_step2.css">
+    <link rel="stylesheet" type="text/css" href="../../style/style_reg_teacher.css">
     <title>Регистрация</title>
 </head>
 <body>
+    <a href="main.php" class="back"></a>
     <div class="register">
         <div class="container">
             <div class="content">
                 <form action="teacher.php">
-                    <div class="block">
+                    <div class="block"> 
                         <div class="header">Регистрация учителя</div>
                         <div class="list" action="register.php">
                             <div class="subtitle">

@@ -44,10 +44,10 @@ $lang = array(
 
 	/* menu buttons */
 	'header_about' => 'Біз туралы',
-	'header_advantage' => 'Преимущества',
+	'header_advantage' => 'Артықшылықтарымыз',
 	'header_admission' => 'Түсушілерге',
 	'header_rating' => 'Бізің мақтанышымыз',
-	'header_event' => 'Ближайшие события',
+	'header_event' => 'Келе жатқан іс-шаралар',
 	'header_blog' => 'Блог',
 
 	/* intro page */
@@ -57,35 +57,33 @@ $lang = array(
 	/* about page */
 	'about_head_title' => 'Біз туралы',
 	'about_title' => 'Лицей-интернат "Білім-инновация" №1',
-	'about_text' => 'Впервые в Казахстане "Казахско-турецкие" лицеи открылись в 1992 году,
-	решением президентов двух стран, Казахстана и Турции, в городах
-	Туркистан и Кокшетау. А в нашем городе он был	 открыт в 1993 году.
-	В 2017 году название лицея поменялось на Лицей-интернат "Білім-инновация" №1.',
+	'about_text' => 'Қазақстан мен Түркия мемлекеттерінің басшырларынын келісуімен, Қазақстанда "Қазақ-түрік" 
+	лицейі тұнгыш рет 1992 жылы Көкшетау мен Түркистанда ашылды. Біздің қалада 1993 жылы ашылды.
+	2017 жылы лицейдің аты "Білім-инновация" лицей-интеранатына ауысты',
 
 	/* advantage page */
 	'advantage_head_subtitle' => 'Чем мы отличаемся',
 	'advantage_head_title' => 'Преимущества',
 	/* 1 advantage */
 	'advantage_post_title_1' => 'Мұғалімдер',
-	'advantage_post_text_1' => 'Наши ученики получают знание только от высококвалифицированных учителей.',
+	'advantage_post_text_1' => 'Біздің оқушылар білімді тек жоғары мамандалған мұғалімдерден алады.',
 	/* 2 advantage */
-	'advantage_post_title_2' => 'Выпускники',
-	'advantage_post_text_2' => 'Выпускники нашего лицея учатся в топовых университетах не только в нашей
-	стране, но и за границей.',
+	'advantage_post_title_2' => 'Түлектер',
+	'advantage_post_text_2' => 'Лицейді бітірген түлектер Қазақстанда ғана емес, шет елдердегі топ университетрде.
+	оқиды',
 	/* 3 advantage */
 	'advantage_post_title_3' => 'Тәрбие',
-	'advantage_post_text_3' => 'Обучение и  воспитание стоят на одном уровне.В этом заслуга наших учителей и воспитателей.',
+	'advantage_post_text_3' => '"Тәрбиесіз берілген білім адамзаттың қас жауы". Лицейде білім мен тәрбие 
+	бірге үйретіледі. ',
 	/* 4 advantage */
 	'advantage_post_title_4' => 'Көп тілде білім беру',
-	'advantage_post_text_4' => 'В лицее - обучение   предметов естественно-математического направления на
-	английском языке.',
+	'advantage_post_text_4' => 'жаратылыстану ғылымдары ағылшын тілінде өтіледі. ',
 	/* 5 advantage */
 	'advantage_post_title_5' => 'Жетістіктер',
-	'advantage_post_text_5' => 'Многие ученики нашего лицея призеры олимпиад разного уровня.',
+	'advantage_post_text_5' => 'Мемлекет бойынша біздің лицей жетістіктер бойынша алда.',
 	/* 6 advantage */
 	'advantage_post_title_6' => 'Жатақхана',
-	'advantage_post_text_6' => 'Также у нас все учащиеся проживают в общежитии. Проживание в нем
-	является обязательным.',
+	'advantage_post_text_6' => 'Лицейдегі жатақханада оқушылар өмір сүруге міндетті.',
 
 	/* admission page */
 	'admission_head_subtitle' => 'Бұл жерде оқығыныз келе ме?',
@@ -124,19 +122,19 @@ $lang = array(
 
 	/* event page */
 	'event_head_subtitle' => 'Не болғалы жатыр',
-	'event_head_title' => 'Ближайшие события',
-	'event_button' => 'Узнать больше',
+	'event_head_title' => 'Келе жатқан іс-шаралар',
+	'event_button' => 'Көбірек білу',
 
 	/* blog page */
 	'blog_head_subtitle' => 'Біздің оқиғалар',
-	'blog_head_title' => 'Последние статьи',
+	'blog_head_title' => 'Соңғы мақалалар',
 
 	/* footer */
 	'footer_logo_name' => 'БИЛ',
 	'footer_item_header_1' => 'Байланыс мәліметтері',
 	'footer_item_header_2' => 'Орналасуы',
 	'footer_map_content' => 'Қараганды қ., Актюбинская 1А.',
-	'footer_item_header' => 'Мы в соц.сетях',
+	'footer_item_header' => 'Біз әлеуметтік желілерде',
 	'footer_footer' => '"Білім-инновация" лицей-интернат',
 
 	/* language switcher */
@@ -157,12 +155,12 @@ $lang = array(
 	'table_column8' => 'Өткізу орны',
 
 	/* login.php */
-	'login_title' => 'Кіру',
+	'login_title' => 'Жеке кабинетке кіру',
 	'login_pass_recovery' => 'Құпия сөзді ұмыттыныз ба?',
 	'login_signup' => 'Тіркелініз',
-	'login_enter' => 'Кірініз',
+	'login_enter' => 'Кіру',
 	'login_ph_login' => 'Логин',
-	'login_ph_pass' => 'Пароль',
+	'login_ph_pass' => 'Құпия сөз',
 
 	/* event.php */
 	'event_title' => 'Блог',
@@ -175,58 +173,58 @@ $lang = array(
 	'main_continue' => 'Жалғастыру',
 
 	/* teacher register hints */
-	'reg_login_hint' => 'Буквы английского алфавита или цифры. Минимум 6 символов',
-	'reg_pass_hint' => 'Буквы английского алфавита (минимум 1 большая и 1 маленькая) и цифры (минимум 1 цифра) и . Длина от 8 до 32 символов',
-	'reg_phone_hint' => '10 цифр номера мобильного телефона. "+7" в начале вводить НЕ нужно',
+	'reg_login_hint' => 'Ағылшын алфавитінің әріптері немесе сандары. Ең азы 6 таңба',
+	'reg_pass_hint' => 'Ағылшын алфавитінің әріптері (кем дегенде 1 үлкен және 1 кішкентай) және сандар (ең аз дегенде 1 сан) және. Ұзындығы 8-ден 32 таңбаға дейін',
+	'reg_phone_hint' => 'Ұялы телефон нөмірінің 10 саны. Басында «+7» талап етілмейді',
 	/* teacher registration main */
 	//'treg_title' => 'Регистрация',
-	'treg_header' => 'Регистрация учителя',
-	'reg_personal_data' => 'Личные данные',
-	'reg_fio' => 'ФИО по документам',
-	'reg_lname' => 'Фамилия',
-	'reg_fname' => 'Имя',
-	'reg_mname' => 'Отчество',
-	'reg_bday' => 'Дата рождения',
-	'treg_gender' => 'Пол',
-	'treg_male' => 'Мужской',
-	'treg_female' => 'Женский',
-	'treg_prof_data' => 'Профессиональные данные',
-	'treg_career_start_title' => 'Когда вы начали свою карьеру учителя?',
-	'treg_karbil_start' => 'Начало работы в нашей школе',
-	'treg_subject' => 'Какой предмет вы преподаете?',
-	'treg_category' => 'Выберите вашу категорию',
-	'treg_position' => 'Дополнительная должность в лицее',
-	'treg_position_none' => 'Нет',
-	'treg_class_teacher' => 'Классный руководитель',
-	'treg_none' => 'Нет',
-	'reg_security_data' => 'Данные для безопасности',
-	'reg_email_title' => 'Введите почту',
-	'reg_phone_title' => 'Введите телефон без пробелов',
+	'treg_header' => 'Мұғалімдерді тіркеу',
+	'reg_personal_data' => 'Жеке мәліметтер',
+	'reg_fio' => 'Құжаттардағы атау',
+	'reg_lname' => 'Тегі',
+	'reg_fname' => 'Аты',
+	'reg_mname' => 'Тегі',
+	'reg_bday' => 'Туған күні',
+	'treg_gender' => 'Жынысы',
+	'treg_male' => 'Еркек',
+	'treg_female' => 'Әйел',
+	'treg_prof_data' => 'Кәсіби мәліметтер',
+	'treg_career_start_title' => 'Мұғалім мансабын қашан бастадыңыз?',
+	'treg_karbil_start' => 'Біздің мектептен бастау',
+	'treg_subject' => 'Сіз қандай пәнді оқытасыз?',
+	'treg_category' => 'Өз категорияңызды таңдаңыз',
+	'treg_position' => 'Лицейдегі қосымша қызмет',
+	'treg_position_none' => 'Жоқ',
+	'treg_class_teacher' => 'Сынып жетекші',
+	'treg_none' => 'Жоқ',
+	'reg_security_data' => 'Қауіпсіздік туралы мәліметтер',
+	'reg_email_title' => 'Электрондық поштаны енгізіңіз',
+	'reg_phone_title' => 'Телефонды бос орынсыз енгізіңіз',
 	'reg_phone' => 'Номер: +7',
-	'reg_create_login' => 'Придумайте логин',
-	'reg_login_main_hint' => 'Логин должен состоять из',
+	'reg_create_login' => 'Логинді ойлап табыныз',
+	'reg_login_main_hint' => 'Кіру керек',
 	'reg_login' => 'Логин',
-	'reg_pass_title' => 'Придумайте пароль',
-	'reg_pass_main_hint' => 'Пароль должен состоять из',
-	'reg_password' => 'Пароль',
-	'reg_repeat_password' => 'Повтор пароля',
-	'register' => 'Зарегистрироваться',
+	'reg_pass_title' => 'Құпия сөз жасаңыз',
+	'reg_pass_main_hint' => 'Құпия сөз мынадан тұруы керек',
+	'reg_password' => 'Құпия сөз',
+	'reg_repeat_password' => 'Құпия сөзді қайталау',
+	'register' => 'Тіркелу',
 
 	/* student registration */
-	'sreg_header' => 'Регистрация ученика',
-	'sreg_study_title' => 'Учеба',
-	'sreg_grad_years' => 'Годы обучения в лицее',
-	'sreg_years' => 'Годы',
-	'sreg_choose_class' => 'Выберите ваш класс',
-	'sreg_olympiad' => 'Ваш олимпиадный предмет',
-	'sreg_olympiad_none' => 'Я не олимпиадчик',
-	'sreg_club' => 'Выберите клубы в которых вы участвуете',
+	'sreg_header' => 'Оқушыны тіркеу тіркеу',
+	'sreg_study_title' => 'Оқу',
+	'sreg_grad_years' => 'Лицейде оқыған жылдар',
+	'sreg_years' => 'Жылдар',
+	'sreg_choose_class' => 'Сыныбынызды таңданыз',
+	'sreg_olympiad' => 'Сіздің олимпиадыныз',
+	'sreg_olympiad_none' => 'Мен олимпиада қатысушысы емеспін',
+	'sreg_club' => 'Қатысатын клубтарды таңдаңыз',
 
 	/* sign up placeholders */
-	'reg_login_ph' => 'Имя пользователя',
-	'reg_email_ph' => 'Эл. почта',
-	'reg_pass_ph' => 'Пароль',
-	'reg_pass_conf_ph' => 'Повтор пароля',
-	'reg_phone_ph' => 'Номер телефона'
+	'reg_login_ph' => 'Қолданушының аты',
+	'reg_email_ph' => 'Электрондық пошта',
+	'reg_pass_ph' => 'Құпия сөз ',
+	'reg_pass_conf_ph' => 'Құпия сөз қайталау',
+	'reg_phone_ph' => 'Телефон нөмірі'
 )
 ?>

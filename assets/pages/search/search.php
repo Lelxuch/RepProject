@@ -22,11 +22,11 @@
         <div class="container">
             <div class="search_results">
                 <div class="results_header">
-                    <a class="results_header_item" href="blog.php">Блог(1223)</a>
-                    <a class="results_header_item_big" href="event.php">Ближайшие события(1234)</a>
-                    <a class="results_header_item" href="teacher.php">Учителя(8962)</a>
-                    <a class="results_header_item" href="student.php">Ученики(1516)</a>
-                    <a class="results_header_item" href="competition.php">Соревнования(2564)</a>
+                    <a class="results_header_item" href="blog.php">Блог(0)</a>
+                    <a class="results_header_item_big" href="event.php">Ближайшие события(0)</a>
+                    <a class="results_header_item" href="teacher.php">Учителя(0)</a>
+                    <a class="results_header_item" href="student.php">Ученики(0)</a>
+                    <a class="results_header_item" href="competition.php">Соревнования(0)</a>
                 </div>
                 <div class="results_content">
                     Вы ничего не выбрали

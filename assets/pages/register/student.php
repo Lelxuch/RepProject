@@ -8,6 +8,7 @@
     <title>Регистрация ученика</title>
 </head>
 <body>
+    <a href="main.php" class="back"></a>
     <div class="register">
         <div class="container">
             <div class="content">
@@ -22,7 +23,6 @@
                             <div class="name">
                                 <div class="name_title">ФИО по документам</div>
                                 <div class="name_item">
-                                    <div class="name_subtitle"></div>
                                     <div class="name_input">
                                         <div class="name_inputs_label">
                                             <label>Фамилия:</label>
