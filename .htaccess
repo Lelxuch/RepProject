@@ -1,3 +1,0 @@
-<IfModule dir_module>
-    DirectoryIndex index.html index.php kernel.php index.shtml
-</IfModule>
