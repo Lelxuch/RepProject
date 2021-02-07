@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 
-	font-family: 'Roboto', sans-serif; /* ??????????????????? */
+	font-family: 'Bebas Neue', sans-serif; /* ??????????????????? */
 	font-size: 15px;
 
 	line-height: 1.5;
@@ -39,13 +39,6 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 5px;
 }
 
-.lang_item{
-	cursor: pointer;
-}
-
-.lang_item:hover{
-	background: #fff;
-	color: #17a6ac;
 .lang_link{
 	text-decoration: none;
 	color: #fff;
@@ -101,6 +94,8 @@ h1, h2, h3, h4, h5, h6{
 
 /* Nav */
 .nav{
+	display: flex;
+
 	text-transform: uppercase;
 	font-size: 14px;
 }
@@ -137,6 +132,15 @@ h1, h2, h3, h4, h5, h6{
 	opacity: 1;
 }
 
+/* Menu for mobile */
+#menu_btn{
+	display: none;
+}
+
+.menu_label{
+	display: none;
+}
+
 /* User and Search */
 .user_img{
 	position: absolute;
@@ -167,7 +171,7 @@ h1, h2, h3, h4, h5, h6{
 
 	justify-content: center;
 
-	background: url("../images/intro/intro_background.jpg") no-repeat center;
+	background: url("../images/main_background/background.jpg") no-repeat center;
 	background-size: cover;
 }
 
@@ -184,7 +188,7 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 80px;
 
 	font-size: 95px;
-	font-family: 'Jomolhari', serif;
+	font-family: 'Bebas Neue', sans-serif;
 
 	text-transform: uppercase;
 	color: #fff;
@@ -242,7 +246,7 @@ h1, h2, h3, h4, h5, h6{
 
 	color: #fff;
 
-	background: url("../images/about/about_background_reverse.jpg") no-repeat center;
+	background: url("../images/main_background/background_reverse.jpg") no-repeat center;
 	background-size: cover;
 }
 
@@ -309,7 +313,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 600px;
 	height: 400px;
 
-	background: url("../images/about/lyceum2.png") no-repeat center;
+	background: url("../images/about/lyceum.png") no-repeat center;
 	background-size: cover;
 }
 
@@ -351,7 +355,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 100%;
 	height: 100vh;
 
-	background: url("../images/advantage/advantage_background.jpg") no-repeat center;
+	background: url("../images/main_background/background.jpg") no-repeat center;
 	background-size: cover;
 }
 
@@ -489,7 +493,7 @@ h1, h2, h3, h4, h5, h6{
 	flex-direction: column;
 	justify-content: center;
 
-	background: url("../images/admission/admission_background_reverse.jpg") no-repeat center;
+	background: url("../images/main_background/background_reverse.jpg") no-repeat center;
 	background-size: cover;
 
 	width: 100%;
@@ -606,11 +610,13 @@ h1, h2, h3, h4, h5, h6{
 	flex-direction: column;
 	justify-content: flex-start;
 
-	background: url("../images/documents/documents_background.jpg") no-repeat center;
+	background: url("../images/main_background/background.jpg") no-repeat center;
 	background-size: cover;
 
 	width: 100%;
 	height: 100vh;
+	
+	font-family: "Bebas Neue", sans-serif;
 }
  /*Documents -> Header*/
 .documents_all_header{
@@ -681,7 +687,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .documents_item_title{
-	font-size: 25px;
+	font-size: 30px;
+	font-weight: 700;
 	text-align: center;
 
 	border-bottom: 5px solid #fff;
@@ -705,7 +712,7 @@ h1, h2, h3, h4, h5, h6{
 	flex-direction: column;
 	justify-content: flex-start;
 
-	background: url("../images/about/about_background_reverse.jpg") no-repeat center;
+	background: url("../images/main_background/background_reverse.jpg") no-repeat center;
 	background-size: cover;
 
 	width: 100%;
@@ -1019,7 +1026,7 @@ h1, h2, h3, h4, h5, h6{
 	flex-direction: column;
 	justify-content: flex-start;
 
-	background: url("../images/event/event_background_reverse.jpg") no-repeat center;
+	background: url("../images/main_background/background.jpg") no-repeat center;
 	background-size: cover;
 
 	width: 100%;
@@ -1196,7 +1203,7 @@ h1, h2, h3, h4, h5, h6{
 	flex-direction: column;
 	justify-content: flex-start;
 
-	background: url("../images/blog/blog_background.jpg") no-repeat center;
+	background: url("../images/main_background/background_reverse.jpg") no-repeat center;
 	background-size: cover;
 
 	width: 100%;
